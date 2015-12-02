@@ -76,7 +76,7 @@
   height: 768px; }
 
 .distort-content {
-  padding-top: 100px; }
+  padding-top: 130px; }
 
 .distort-phone {
   display: block; }
@@ -143,7 +143,7 @@
 
 .footer-copyright {
   margin-top: 300px;
-  font-size: 1px;
+  font-size: 12px;
   font-family: "din-condensed-web";
   line-height: 26px;
   text-align: center;
@@ -188,9 +188,28 @@
   display: block;
   margin: 0 auto; }
 
+.navbar-text {
+  padding-top: 10px;
+  z-index: 10; }
+
 body {
   color: white;
   margin: 0;
   background: #000;
   letter-spacing: 3px;
   font-family: "aktiv-grotesk"; }
+
+a:link {
+  color: white; }
+
+a:hover {
+  color: #F4B6A4;
+  text-decoration: none; }
+
+a:visited {
+  color: white;
+  text-decoration: none; }
+
+a:active {
+  color: #F4B6A4;
+  text-decoration: none; }

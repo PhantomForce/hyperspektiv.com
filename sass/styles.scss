@@ -12,3 +12,22 @@ body {
     letter-spacing: 3px;
     font-family: "aktiv-grotesk";
 }
+
+a:link {
+    color: white;
+}
+
+a:hover {
+    color: #F4B6A4;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+a:active {
+    color: #F4B6A4;
+    text-decoration: none;
+}
