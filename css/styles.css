@@ -75,6 +75,25 @@
   background-position: 50% 50%;
   height: 768px; }
 
+.distort-content {
+  padding-top: 100px; }
+
+.distort-phone {
+  display: block; }
+
+.distort-title {
+  font-size: 50px;
+  margin-top: 190px;
+  font-family: "aktiv-grotesk";
+  text-transform: uppercase; }
+
+.distort-blurb {
+  font-size: 22px;
+  font-family: "din-condensed-web";
+  color: #F4B6A4;
+  letter-spacing: 1px;
+  line-height: 26px; }
+
 .interact-section {
   background: url(../assets/images/interact_background.jpg);
   background-size: cover;

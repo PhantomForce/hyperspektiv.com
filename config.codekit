@@ -35,6 +35,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/images\/distort_phone.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 204135,
+		"inputAbbreviatedPath": "\/assets\/images\/distort_phone.png",
+		"outputAbbreviatedPath": "\/assets\/images\/distort_phone.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/images\/down_arrow.png": {
 		"fileType": 32768,
 		"ignore": 0,
