@@ -101,6 +101,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/images\/interact_phone.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 230874,
+		"inputAbbreviatedPath": "\/assets\/images\/interact_phone.png",
+		"outputAbbreviatedPath": "\/assets\/images\/interact_phone.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/images\/splash_background.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
