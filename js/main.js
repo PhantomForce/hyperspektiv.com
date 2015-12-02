@@ -1,8 +1,10 @@
 $(window).scroll(function() {
     if ($(window).scrollTop() > 500 ){
- 		$('#nav').addClass('navbar-show');
+ 		$('.navbar-bg').addClass('navbar-bg-show');
+        $('.navbar-content').addClass('navbar-content-show');
     } else {
-        $('#nav').removeClass('navbar-show');
+        $('.navbar-bg').removeClass('navbar-bg-show');
+        $('.navbar-content').removeClass('navbar-content-show');
     };   	
 });
 
