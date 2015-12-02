@@ -1,26 +1,27 @@
 @import "_mixins.scss";
 
 .splash-section {
-    background-size: cover;
     background: url(../assets/images/splash_background.jpg) ;
-    height: 100vh;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: cover;
+    background-position: 50% 50%;
+    height: 768px;
 }
 
 .splash-logo {
     display: block;
     margin: 0 auto;
-    padding-top: 6vh;
+    padding-top: 40px;
 }
 
 .splash-icon {
-    @include centre;
+    display: block;
+    margin: 0 auto;
+    margin-top: 100px;
 }
 
 .splash-text {
     text-align: center;
-    margin-top: 80vh;
+    margin-top: 60px;
     text-transform: uppercase;
     font-family: "din-condensed-web";
     font-size: 21px;
