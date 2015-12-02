@@ -1,36 +1,15 @@
-
+@import "_splash.scss";
+@import "_create.scss";
+@import "_distort.scss";
+@import "_interact.scss";
+@import "_footer.scss";
 
 body { 
     color: white;
     margin: 0; 
     background: #000;
     letter-spacing: 3px;
-}
-
-.title-section {
-    //margin-top: 150px;
-    padding: 40px;
-    background-color: rgba(0, 0, 0, .5);
-
-}
-
-.title-presents {   
-    //font-family: 'Ostrich Sans';
-    font-size: 35px;
-    margin-bottom: 0;
-}
-
-.title {
-    //font-family: 'Ostrich Sans Inline';
-    font-size: 80px;
-    margin-top: -5px;
-    margin-bottom: -5px;
-}
-
-.post-title {
-    font-family: 'Ostrich Sans';
-    font-size: 32px;
-    margin-bottom: 0;
+    font-family: "aktiv-grotesk";
 }
 
 .vertical-center-parent {
@@ -44,38 +23,3 @@ body {
   top: 50%;
   transform: translateY(50%);
 }
-
-.lookbook-section {
-    margin-top: 250px;
-    padding: 40px;
-    background-color: rgba(0, 0, 0, .5);
-    font-family: 'Ostrich Sans';
-    font-size: 32px;
-}
-
-.lookbook-img {
-    width: 100%;
-}
-
-.lookbook-title {
-    text-align: center;
-}
-
-.lookbook {
-    margin: 0 auto;
-}
-
-video { 
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    z-index: -100;
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
-    background: url('../assets/images/TreatMeLikeImGarbage.png') no-repeat; background-size: cover;  -webkit-transition: 1s opacity; transition: 1s opacity; 
-}
-    

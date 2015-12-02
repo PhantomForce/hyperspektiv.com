@@ -1,54 +1,11 @@
-body {
-  color: white;
-  margin: 0;
-  background: #000;
-  letter-spacing: 3px; }
+.splash-section {
+  background-size: cover;
+  background: url(../assets/images/splash_background.jpg);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: 100% 100%; }
 
-.title-section {
-  padding: 40px;
-  background-color: rgba(0, 0, 0, 0.5); }
-
-.title-presents {
-  font-size: 35px;
-  margin-bottom: 0; }
-
-.title {
-  font-size: 80px;
-  margin-top: -5px;
-  margin-bottom: -5px; }
-
-.post-title {
-  font-family: 'Ostrich Sans';
-  font-size: 32px;
-  margin-bottom: 0; }
-
-.vertical-center-parent {
-  -webkit-transform-style: preserve-3d;
-  -moz-transform-style: preserve-3d;
-  transform-style: preserve-3d; }
-
-.vertical-center {
-  position: relative;
-  top: 50%;
-  transform: translateY(50%); }
-
-.lookbook-section {
-  margin-top: 250px;
-  padding: 40px;
-  background-color: rgba(0, 0, 0, 0.5);
-  font-family: 'Ostrich Sans';
-  font-size: 32px; }
-
-.lookbook-img {
-  width: 100%; }
-
-.lookbook-title {
-  text-align: center; }
-
-.lookbook {
-  margin: 0 auto; }
-
-video {
+.splash-video {
   position: fixed;
   top: 50%;
   left: 50%;
@@ -63,3 +20,48 @@ video {
   background-size: cover;
   -webkit-transition: 1s opacity;
   transition: 1s opacity; }
+
+.create-section {
+  background-size: cover;
+  background: url(../assets/images/create_background.jpg);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: 100% 100%; }
+
+.distort-section {
+  background-size: cover;
+  background: url(../assets/images/distort_background.jpg);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: 100% 100%; }
+
+.interact-section {
+  background-size: cover;
+  background: url(../assets/images/interact_background.jpg);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: 100% 100%; }
+
+.footer-section {
+  background-size: cover;
+  background: url(../assets/images/footer_background.jpg);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: 100% 100%; }
+
+body {
+  color: white;
+  margin: 0;
+  background: #000;
+  letter-spacing: 3px;
+  font-family: "aktiv-grotesk"; }
+
+.vertical-center-parent {
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d; }
+
+.vertical-center {
+  position: relative;
+  top: 50%;
+  transform: translateY(50%); }

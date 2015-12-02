@@ -1,0 +1,22 @@
+.splash-section {
+    background-size: cover;
+    background: url(../assets/images/splash_background.jpg) ;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.splash-video { 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url('../assets/images/TreatMeLikeImGarbage.png') no-repeat; background-size: cover;  -webkit-transition: 1s opacity; transition: 1s opacity; 
+}
+    
