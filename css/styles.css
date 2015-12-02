@@ -128,6 +128,25 @@
   background-position: 50% 50%;
   height: 768px; }
 
+.footer-content {
+  padding-top: 380px; }
+
+.footer-blurb {
+  font-size: 22px;
+  font-family: "din-condensed-web";
+  letter-spacing: 1px;
+  line-height: 26px;
+  text-align: center; }
+
+.footer-copyright {
+  margin-top: 330px;
+  font-size: 10px;
+  font-family: "din-condensed-web";
+  letter-spacing: 1px;
+  line-height: 26px;
+  text-align: center;
+  text-transform: uppercase; }
+
 body {
   color: white;
   margin: 0;
