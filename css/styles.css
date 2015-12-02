@@ -48,6 +48,27 @@
   background-position: 50% 50%;
   height: 768px; }
 
+.create-content {
+  padding-top: 100px; }
+
+.create-phone {
+  display: block; }
+
+.create-title {
+  text-align: right;
+  font-size: 50px;
+  margin-top: 160px;
+  font-family: "aktiv-grotesk";
+  text-transform: uppercase; }
+
+.create-blurb {
+  text-align: right;
+  font-size: 22px;
+  font-family: "din-condensed-web";
+  color: #F4B6A4;
+  letter-spacing: 1px;
+  line-height: 26px; }
+
 .distort-section {
   background: url(../assets/images/distort_background.jpg);
   background-size: cover;
@@ -72,13 +93,3 @@ body {
   background: #000;
   letter-spacing: 3px;
   font-family: "aktiv-grotesk"; }
-
-.vertical-center-parent {
-  -webkit-transform-style: preserve-3d;
-  -moz-transform-style: preserve-3d;
-  transform-style: preserve-3d; }
-
-.vertical-center {
-  position: relative;
-  top: 50%;
-  transform: translateY(50%); }
