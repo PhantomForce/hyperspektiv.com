@@ -1,0 +1,1 @@
+$(window).scroll(function(){$(window).scrollTop()>500?$("#nav").addClass("navbar-show"):$("#nav").removeClass("navbar-show")}),$(".scroll").on("click",function(o){o.preventDefault(),$("html, body").animate({scrollTop:$(this.hash).offset().top},1500)});
