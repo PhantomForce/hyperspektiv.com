@@ -30,3 +30,10 @@ $(function() {
     }
   });
 });
+
+$(function () {
+    $('#distort').hover(function() {
+        
+        $('#splash-arrow').src = "../assets/images/down_arrow_hover.png";
+    });
+});

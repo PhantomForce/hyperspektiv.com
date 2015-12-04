@@ -79,24 +79,24 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/images\/H.png": {
+	"\/assets\/images\/h.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 3237,
-		"inputAbbreviatedPath": "\/assets\/images\/H.png",
-		"outputAbbreviatedPath": "\/assets\/images\/H.png",
+		"inputAbbreviatedPath": "\/assets\/images\/h.png",
+		"outputAbbreviatedPath": "\/assets\/images\/h.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/images\/HYPERSPEKTIV.png": {
+	"\/assets\/images\/hyperspektiv.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 2348,
-		"inputAbbreviatedPath": "\/assets\/images\/HYPERSPEKTIV.png",
-		"outputAbbreviatedPath": "\/assets\/images\/HYPERSPEKTIV.png",
+		"inputAbbreviatedPath": "\/assets\/images\/hyperspektiv.png",
+		"outputAbbreviatedPath": "\/assets\/images\/hyperspektiv.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
