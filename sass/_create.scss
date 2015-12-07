@@ -6,27 +6,37 @@
 }
 
 .create-content {
-    padding-top: 17vh;
+    //padding-top: 17vh;
+    margin: 0 auto;
+    width: 750px;
 }
 
 .create-phone {
-    display: block;
+    margin-top: -23vh;
+    float: right;
 }
 
 .create-title {
     text-align: right;
     font-size: 70px;
     font-weight: bold;
-    margin-top: 21vh;
+    //margin-top: 21vh;
     font-family: "aktiv-grotesk";
     text-transform: uppercase;
+    width: 400px;
+    padding-top: 24vh;
+    float:left;
+    
 }
 
 .create-blurb {
+    
     text-align: right;
-     font-size: 27px;
+    font-size: 27px;
     font-family: "din-next";
     color: #DFA29A;
     letter-spacing: -1.5px;
     line-height: 30px;
+    width: 400px;
+    float:left;
 }

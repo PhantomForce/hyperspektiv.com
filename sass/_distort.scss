@@ -7,21 +7,26 @@
 
 .distort-content {
     padding-top: 18vh;
+    margin: 0 auto;
+    width: 750px;
 }
 
 .distort-phone {
-    display: block;
+    float: left;
 }
 
 .distort-title {
+    margin-left: 375px;
     font-size: 70px;
-    margin-top: 22vh;
+    margin-top: 17vh;
     font-weight: bold;
     font-family: "aktiv-grotesk";
     text-transform: uppercase;
 }
 
 .distort-blurb {
+    margin-left: 375px;
+    display: block;
     font-size: 27px;
     font-family: "din-next";
     color: #DFA29A;
