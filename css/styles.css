@@ -226,6 +226,10 @@ a:hover {
   color: #F4B6A4;
   text-decoration: none; }
 
+a:focus {
+  color: white;
+  text-decoration: none; }
+
 a:visited {
   color: white;
   text-decoration: none; }
