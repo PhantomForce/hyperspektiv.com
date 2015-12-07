@@ -1,19 +1,19 @@
 .splash-section {
-  height: 768px; }
+  height: 100vh; }
 
 .splash-logo {
   display: block;
   margin: 0 auto;
-  padding-top: 40px; }
+  padding-top: 5vh; }
 
 .splash-icon {
   display: block;
   margin: 0 auto;
-  margin-top: 140px; }
+  margin-top: 20vh; }
 
 .splash-text {
   text-align: center;
-  margin-top: 140px;
+  margin-top: 16vh;
   text-transform: uppercase;
   font-family: "din-condensed-web";
   font-size: 25px; }
@@ -25,7 +25,7 @@
 
 #vid {
   position: absolute;
-  height: 768px;
+  height: 100vh;
   width: 100%;
   overflow: hidden; }
 
@@ -56,10 +56,10 @@
   background: url(../assets/images/create_background.jpg);
   background-size: cover;
   background-position: 50% 50%;
-  height: 768px; }
+  height: 100vh; }
 
 .create-content {
-  padding-top: 100px; }
+  padding-top: 17vh; }
 
 .create-phone {
   display: block; }
@@ -67,7 +67,7 @@
 .create-title {
   text-align: right;
   font-size: 50px;
-  margin-top: 160px;
+  margin-top: 21vh;
   font-family: "aktiv-grotesk";
   text-transform: uppercase; }
 
@@ -83,17 +83,17 @@
   background: url(../assets/images/distort_background.jpg);
   background-size: cover;
   background-position: 50% 50%;
-  height: 768px; }
+  height: 100vh; }
 
 .distort-content {
-  padding-top: 130px; }
+  padding-top: 18vh; }
 
 .distort-phone {
   display: block; }
 
 .distort-title {
   font-size: 50px;
-  margin-top: 190px;
+  margin-top: 22vh;
   font-family: "aktiv-grotesk";
   text-transform: uppercase; }
 
@@ -108,7 +108,7 @@
   background: url(../assets/images/interact_background.jpg);
   background-size: cover;
   background-position: 50% 50%;
-  height: 768px; }
+  height: 100vh; }
 
 .interact-content {
   padding-top: 0px; }
@@ -119,7 +119,7 @@
 
 .interact-title {
   font-size: 50px;
-  margin-top: 160px;
+  margin-top: 18vh;
   font-family: "aktiv-grotesk";
   text-transform: uppercase;
   text-align: center; }
@@ -136,10 +136,10 @@
   background: url(../assets/images/footer_background.jpg);
   background-size: cover;
   background-position: 50% 50%;
-  height: 768px; }
+  height: 100vh; }
 
 .footer-content {
-  padding-top: 380px; }
+  padding-top: 50vh; }
 
 .footer-blurb {
   font-size: 25px;
@@ -152,7 +152,7 @@
   display: block; }
 
 .footer-copyright {
-  margin-top: 300px;
+  margin-top: 38vh;
   font-size: 12px;
   font-family: "din-condensed-web";
   line-height: 26px;

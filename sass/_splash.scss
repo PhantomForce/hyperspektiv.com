@@ -4,24 +4,24 @@
     //background: url(../assets/images/splash_background.jpg) ;
     //background-size: cover;
     //background-position: 50% 50%;
-    height: 768px;
+    height: 100vh;
 }
 
 .splash-logo {
     display: block;
     margin: 0 auto;
-    padding-top: 40px;
+    padding-top: 5vh;
 }
 
 .splash-icon {
     display: block;
     margin: 0 auto;
-    margin-top: 140px;
+    margin-top: 20vh;
 }
 
 .splash-text {
     text-align: center;
-    margin-top: 140px;
+    margin-top: 16vh;
     text-transform: uppercase;
     font-family: "din-condensed-web";
     font-size: 25px;
@@ -37,7 +37,7 @@
 {
 
     position:absolute;
-    height: 768px;
+    height: 100vh;
     width:100%;
     overflow: hidden;
 }

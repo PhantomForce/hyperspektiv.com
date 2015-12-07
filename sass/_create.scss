@@ -2,11 +2,11 @@
     background: url(../assets/images/create_background.jpg) ;
     background-size: cover;
     background-position: 50% 50%;
-    height: 768px;
+    height: 100vh;
 }
 
 .create-content {
-    padding-top: 100px;
+    padding-top: 17vh;
 }
 
 .create-phone {
@@ -16,7 +16,7 @@
 .create-title {
     text-align: right;
     font-size: 50px;
-    margin-top: 160px;
+    margin-top: 21vh;
     font-family: "aktiv-grotesk";
     text-transform: uppercase;
 }

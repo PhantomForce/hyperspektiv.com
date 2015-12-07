@@ -2,11 +2,11 @@
     background: url(../assets/images/footer_background.jpg) ;
     background-size: cover;
     background-position: 50% 50%;
-    height: 768px;
+    height: 100vh;
 }
 
 .footer-content {
-    padding-top: 380px;
+    padding-top: 50vh;
 }
 
 .footer-blurb {
@@ -21,7 +21,7 @@
 }
 
 .footer-copyright {
-    margin-top: 300px;
+    margin-top: 38vh;
     font-size: 12px;
     font-family: "din-condensed-web";
     line-height: 26px;
