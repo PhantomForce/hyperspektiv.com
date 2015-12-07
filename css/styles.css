@@ -67,18 +67,19 @@
 
 .create-title {
   text-align: right;
-  font-size: 50px;
+  font-size: 70px;
+  font-weight: bold;
   margin-top: 21vh;
   font-family: "aktiv-grotesk";
   text-transform: uppercase; }
 
 .create-blurb {
   text-align: right;
-  font-size: 25px;
-  font-family: "din-condensed-web";
-  color: #F4B6A4;
-  letter-spacing: 1px;
-  line-height: 26px; }
+  font-size: 27px;
+  font-family: "din-next";
+  color: #DFA29A;
+  letter-spacing: -1.5px;
+  line-height: 30px; }
 
 .distort-section {
   background: url(../assets/images/distort_background.jpg);
@@ -93,17 +94,18 @@
   display: block; }
 
 .distort-title {
-  font-size: 50px;
+  font-size: 70px;
   margin-top: 22vh;
+  font-weight: bold;
   font-family: "aktiv-grotesk";
   text-transform: uppercase; }
 
 .distort-blurb {
-  font-size: 25px;
-  font-family: "din-condensed-web";
-  color: #F4B6A4;
-  letter-spacing: 1px;
-  line-height: 26px; }
+  font-size: 27px;
+  font-family: "din-next";
+  color: #DFA29A;
+  letter-spacing: -1.5px;
+  line-height: 30px; }
 
 .interact-section {
   background: url(../assets/images/interact_background.jpg);
@@ -119,18 +121,19 @@
   margin: 0 auto; }
 
 .interact-title {
-  font-size: 50px;
+  font-size: 70px;
   margin-top: 18vh;
+  font-weight: bold;
   font-family: "aktiv-grotesk";
   text-transform: uppercase;
   text-align: center; }
 
 .interact-blurb {
-  font-size: 25px;
-  font-family: "din-condensed-web";
-  color: #F4B6A4;
-  letter-spacing: 1px;
-  line-height: 26px;
+  font-size: 27px;
+  font-family: "din-next";
+  color: #DFA29A;
+  letter-spacing: -1.5px;
+  line-height: 30px;
   text-align: center; }
 
 .footer-section {
@@ -201,8 +204,13 @@
 
 .navbar-text {
   padding-top: 10px;
-  z-index: 10; }
+  z-index: 10;
+  letter-spacing: 0px;
+  font-size: 14px; }
 
+@font-face {
+  font-family: din-next;
+  src: url(../fonts/DINNextLTPro-UltraLight.otf); }
 body {
   color: white;
   margin: 0;
