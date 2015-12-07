@@ -32,8 +32,10 @@ $(function() {
 });
 
 $(function () {
-    $('#distort').hover(function() {
-        
-        $('#splash-arrow').src = "../assets/images/down_arrow_hover.png";
+    $('#distorted-reality').mouseover(function() {
+        $('#splash-arrow').attr("src", "../assets/images/down_arrow_hover.png");
+    });
+    $('#distorted-reality').mouseout(function() {
+        $('#splash-arrow').attr("src", "../assets/images/down_arrow.png");
     });
 });

@@ -33,13 +33,12 @@
     margin-top: 2vh;
 }
 
-#vid
-{
-
+#vid {
     position:absolute;
     height: 100vh;
     width:100%;
     overflow: hidden;
+    z-index: -100;
 }
 
 #vid video {
@@ -68,3 +67,6 @@
     background: url('../assets/images/TreatMeLikeImGarbage.png') no-repeat; background-size: cover;  -webkit-transition: 1s opacity; transition: 1s opacity; 
 }
     
+.distorted-reality {
+    //z-index: 100;
+}

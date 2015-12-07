@@ -27,7 +27,8 @@
   position: absolute;
   height: 100vh;
   width: 100%;
-  overflow: hidden; }
+  overflow: hidden;
+  z-index: -100; }
 
 #vid video {
   width: 100%;
