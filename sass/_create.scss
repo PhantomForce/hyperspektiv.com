@@ -30,7 +30,6 @@
 }
 
 .create-blurb {
-    
     text-align: right;
     font-size: 27px;
     font-family: "din-next";
@@ -39,4 +38,23 @@
     line-height: 30px;
     width: 400px;
     float:left;
+    margin-top: 2vh;
+}
+
+@media (min-width: 960px) {
+    .create-content {
+        width: 920px;   
+    }
+    
+    .create-blurb {
+        width: 550px;
+    }
+    .create-title {
+        padding-top: 26vh;   
+        width: 550px;
+    }
+    
+    .create-phone {
+        margin-top: -28vh;   
+    }
 }

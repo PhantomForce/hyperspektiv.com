@@ -12,6 +12,7 @@
 .interact-phone {
     display: block;
     margin: 0 auto;
+    margin-top: 4vh;
 }
 
 .interact-title {
@@ -24,10 +25,19 @@
 }
 
 .interact-blurb {
+    margin: 0 auto;
     font-size: 27px;
     font-family: "din-next";
     color: #DFA29A;
     letter-spacing: -1.5px;
     line-height: 30px;
     text-align: center;
+    margin-top: 4vh;
+    width: 750px;
+}
+
+@media (min-width: 1024px) {
+    .interact-blurb {
+        width: 1000px;   
+    }
 }

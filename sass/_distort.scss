@@ -32,4 +32,15 @@
     color: #DFA29A;
     letter-spacing: -1.5px;
     line-height: 30px;
+    margin-top: 3vh;
+}
+
+@media (min-width: 960px) {
+    .distort-content {
+        width: 920px;   
+    }
+    
+    .distort-title {
+        margin-top: 20vh;   
+    }
 }
