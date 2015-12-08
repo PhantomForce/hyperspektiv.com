@@ -270,6 +270,11 @@ li {
   margin-left: 30px;
   float: left; }
 
+#sign-up {
+  position: fixed;
+  bottom: 0;
+  right: 0; }
+
 body {
   color: white;
   margin: 0;

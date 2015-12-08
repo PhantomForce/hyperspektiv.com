@@ -39,3 +39,12 @@ $(function () {
         $('#splash-arrow').attr("src", "../assets/images/down_arrow.png");
     });
 });
+
+$(function () {
+    $('#sign-up').mouseover(function() {
+        $('#sign-up').attr("src", "../assets/images/sign_up_hover.png");
+    });
+    $('#sign-up').mouseout(function() {
+        $('#sign-up').attr("src", "../assets/images/sign_up.png");
+    });
+});

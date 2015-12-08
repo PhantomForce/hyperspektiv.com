@@ -145,6 +145,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/images\/sign_up.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3995,
+		"inputAbbreviatedPath": "\/assets\/images\/sign_up.png",
+		"outputAbbreviatedPath": "\/assets\/images\/sign_up.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/sign_up_hover.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3557,
+		"inputAbbreviatedPath": "\/assets\/images\/sign_up_hover.png",
+		"outputAbbreviatedPath": "\/assets\/images\/sign_up_hover.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/images\/splash_background.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
