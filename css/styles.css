@@ -4,12 +4,12 @@
 .splash-logo {
   display: block;
   margin: 0 auto;
-  padding-top: 5vh; }
+  padding-top: 60px; }
 
 .splash-icon {
   display: block;
   margin: 0 auto;
-  margin-top: 20vh; }
+  margin-top: 17vh; }
 
 .splash-text {
   text-align: center;
@@ -264,6 +264,12 @@ li {
 @font-face {
   font-family: din-next;
   src: url(../fonts/DINNextLTPro-UltraLight.otf); }
+.app-store-icon {
+  height: 60px;
+  margin-top: 30px;
+  margin-left: 30px;
+  float: left; }
+
 body {
   color: white;
   margin: 0;
