@@ -3,16 +3,17 @@
     background-size: cover;
     background-position: 50% 50%;
     height: 100vh;
+    position: relative;
 }
 
 .create-content {
-    //padding-top: 17vh;
-    margin: 0 auto;
+    @extend .absolute-center;
     width: 750px;
+    height: 540px;
 }
 
 .create-phone {
-    margin-top: -23vh;
+    //margin-top: -23vh;
     float: right;
 }
 
@@ -24,7 +25,7 @@
     font-family: "aktiv-grotesk";
     text-transform: uppercase;
     width: 400px;
-    padding-top: 24vh;
+    //padding-top: 24vh;
     float:left;
     
 }
@@ -50,11 +51,11 @@
         width: 550px;
     }
     .create-title {
-        padding-top: 26vh;   
         width: 550px;
+        padding-top: 120px;
     }
     
     .create-phone {
-        margin-top: -28vh;   
+        margin-top: -220px;
     }
 }

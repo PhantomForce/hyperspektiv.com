@@ -40,3 +40,9 @@ a:active {
     color: #F4B6A4;
     text-decoration: none;
 }
+
+.absolute-center {
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+}

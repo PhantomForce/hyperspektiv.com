@@ -1,4 +1,5 @@
 .distort-section {
+    position: relative;
     background: url(../assets/images/distort_background.jpg) ;
     background-size: cover;
     background-position: 50% 50%;
@@ -6,9 +7,9 @@
 }
 
 .distort-content {
-    padding-top: 18vh;
-    margin: 0 auto;
+    @extend .absolute-center;
     width: 750px;
+    height: 540px;
 }
 
 .distort-phone {

@@ -3,28 +3,32 @@
     background-size: cover;
     background-position: 50% 50%;
     height: 100vh;
+    position: relative;
 }
 
 .footer-content {
-    padding-top: 50vh;
+
 }
 
 .footer-blurb {
+    @extend .absolute-center;
+    height: 40px;
     font-size: 25px;
     font-family: "din-condensed-web";
     letter-spacing: 1px;
     line-height: 26px;
     text-align: center;
     width: 600px;
-    margin: 0 auto;
-    display: block;
 }
 
 .footer-copyright {
-    margin-top: 38vh;
+    position: absolute;
+    bottom: 2vh;
     font-size: 12px;
     font-family: "din-condensed-web";
     line-height: 26px;
     text-align: center;
     text-transform: uppercase;
+    left:50%;
+    margin-left: -115px;
 }

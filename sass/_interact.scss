@@ -3,10 +3,13 @@
     background-size: cover;
     background-position: 50% 50%;
     height: 100vh;
+    position: relative;
 }
 
 .interact-content {
-    padding-top: 0px;
+    @extend .absolute-center;
+    width: 1000px;
+    height: 500px;
 }
 
 .interact-phone {
@@ -17,7 +20,6 @@
 
 .interact-title {
     font-size: 70px;
-    margin-top: 18vh;
     font-weight: bold;
     font-family: "aktiv-grotesk";
     text-transform: uppercase;

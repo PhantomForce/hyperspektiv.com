@@ -1,9 +1,10 @@
 @import "_mixins.scss";
 
 .splash-section {
-    background: url(../assets/images/splash_background.jpg) ;
-    background-size: cover;
-    background-position: 50% 50%;
+    position: relative;
+    //background: url(../assets/images/splash_background.jpg) ;
+    //background-size: cover;
+    //background-position: 50% 50%;
     height: 90vh;
     
     @include tablet-up {
@@ -18,9 +19,8 @@
 }
 
 .splash-icon {
-    display: block;
-    margin: 0 auto;
-    margin-top: 17vh;
+    @extend .absolute-center;
+
     
     height: 120px;
     @include tablet-up {
@@ -28,9 +28,15 @@
     }
 }
 
+.distorted-reality {
+    position: absolute;
+    bottom: 2vh;
+    left:50%;
+    margin-left: -107px;
+}
+
 .splash-text {
     text-align: center;
-    margin-top: 16vh;
     text-transform: uppercase;
     font-family: "din-condensed-web";
     font-size: 25px;
