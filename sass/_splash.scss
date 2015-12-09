@@ -1,10 +1,14 @@
 @import "_mixins.scss";
 
 .splash-section {
-    //background: url(../assets/images/splash_background.jpg) ;
-    //background-size: cover;
-    //background-position: 50% 50%;
-    height: 100vh;
+    background: url(../assets/images/splash_background.jpg) ;
+    background-size: cover;
+    background-position: 50% 50%;
+    height: 90vh;
+    
+    @include tablet-up {
+        height: 100vh;   
+    }
 }
 
 .splash-logo {
@@ -17,6 +21,11 @@
     display: block;
     margin: 0 auto;
     margin-top: 17vh;
+    
+    height: 120px;
+    @include tablet-up {
+        height: 343px;   
+    }
 }
 
 .splash-text {

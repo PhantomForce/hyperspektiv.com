@@ -79,6 +79,39 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/images\/FACEBOOK.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 581,
+		"inputAbbreviatedPath": "\/assets\/images\/FACEBOOK.png",
+		"outputAbbreviatedPath": "\/assets\/images\/FACEBOOK.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/facebook_hover.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 489,
+		"inputAbbreviatedPath": "\/assets\/images\/facebook_hover.png",
+		"outputAbbreviatedPath": "\/assets\/images\/facebook_hover.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/favicon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1147,
+		"inputAbbreviatedPath": "\/assets\/images\/favicon.png",
+		"outputAbbreviatedPath": "\/assets\/images\/favicon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/images\/footer_background.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -90,24 +123,24 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/images\/h.png": {
+	"\/assets\/images\/H.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 3237,
-		"inputAbbreviatedPath": "\/assets\/images\/h.png",
-		"outputAbbreviatedPath": "\/assets\/images\/h.png",
+		"inputAbbreviatedPath": "\/assets\/images\/H.png",
+		"outputAbbreviatedPath": "\/assets\/images\/H.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/images\/hyperspektiv.png": {
+	"\/assets\/images\/HYPERSPEKTIV.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 2348,
-		"inputAbbreviatedPath": "\/assets\/images\/hyperspektiv.png",
-		"outputAbbreviatedPath": "\/assets\/images\/hyperspektiv.png",
+		"inputAbbreviatedPath": "\/assets\/images\/HYPERSPEKTIV.png",
+		"outputAbbreviatedPath": "\/assets\/images\/HYPERSPEKTIV.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3568,6 +3601,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/index copy.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/index copy.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/index.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -3624,6 +3666,22 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/sass\/_cta.scss",
 		"outputAbbreviatedPath": "\/css\/_cta.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/sass\/_device_specific.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/sass\/_device_specific.scss",
+		"outputAbbreviatedPath": "\/css\/_device_specific.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
