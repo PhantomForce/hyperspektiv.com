@@ -195,7 +195,7 @@
 .footer-blurb {
   height: 40px;
   font-size: 25px;
-  font-family: "din-condensed-web";
+  font-family: "din-next";
   letter-spacing: 1px;
   line-height: 26px;
   text-align: center;
@@ -205,7 +205,7 @@
   position: absolute;
   bottom: 2vh;
   font-size: 12px;
-  font-family: "din-condensed-web";
+  font-family: "din-next";
   line-height: 26px;
   text-align: center;
   text-transform: uppercase;
@@ -281,7 +281,7 @@
 
 @font-face {
   font-family: din-next;
-  src: url(../fonts/DINNextLTPro-UltraLight.otf); }
+  src: url(../fonts/DINNextLTPro-Light.otf); }
 .app-store-icon {
   height: 60px;
   margin-top: 30px;
