@@ -13,15 +13,16 @@
 .distort-content {
     @extend .tablet-up;
     @extend .absolute-center;
+    
     width: 750px;
     height: 540px;
 }
-
 
 .distort-title-common {
     font-weight: bold;
     font-family: "aktiv-grotesk";
     text-transform: uppercase;
+    margin-top: 0;
 }
 
 .distort-title-mobile {
@@ -31,7 +32,7 @@
         text-align: center;
         padding-top: 3vh;
         font-size: 50px;
-        z-index: 100;
+
     }
     
     @include mobile-landscape {

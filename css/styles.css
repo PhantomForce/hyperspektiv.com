@@ -127,14 +127,14 @@
 .distort-title-common, .distort-title-mobile, .distort-title {
   font-weight: bold;
   font-family: "aktiv-grotesk";
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  margin-top: 0; }
 
 @media (max-width: 768px) {
   .distort-title-mobile {
     text-align: center;
     padding-top: 3vh;
-    font-size: 50px;
-    z-index: 100; } }
+    font-size: 50px; } }
 @media (min-width: 540px) and (max-width: 768px) {
   .distort-title-mobile {
     padding-top: 2vh;
