@@ -1,0 +1,60 @@
+@import "_mixins.scss";
+
+.title-common {
+    font-weight: bold;
+    font-family: "aktiv-grotesk";
+    text-transform: uppercase;
+    margin-top: 0;
+}
+
+.title-mobile-common {
+    @extend .title-common;
+    
+    @include mobile-portrait-up {
+        text-align: center;
+        padding-top: 3vh;
+        font-size: 50px;
+    }
+    
+    @include mobile-landscape {
+        padding-top: 2vh;
+        font-size: 40px;
+    }
+}
+
+.blurb-common {    
+    font-family: "din-next";
+    color: #DFA29A;
+    
+    @include tablet-up {
+        font-size: 27px;
+        display: block;
+        letter-spacing: -1.5px;
+        line-height: 30px;
+    }
+}
+
+.content-mobile-common {
+    @extend .mobile-only;
+}
+
+.blurb-mobile-common {
+    @extend .blurb-common;
+    
+    @include mobile-portrait-up {
+        position: absolute;
+        bottom: 2vh;
+        left:50%;
+        margin-left: -160px;
+        width: 320px;
+        letter-spacing: 0;
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    @include mobile-landscape {
+        bottom: 2vh;
+        margin-left: -320px;
+        width: 640px;
+    }
+}

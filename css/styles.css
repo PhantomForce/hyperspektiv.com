@@ -1,3 +1,15 @@
+@media (max-width: 767px) {
+  .mobile-only, .content-mobile-common, .create-content-mobile, .distort-content-mobile {
+    display: block !important; }
+
+  .tablet-up, .create-content, .distort-content, .interact-content, .footer-content {
+    display: none !important; } }
+@media (min-width: 768px) {
+  .mobile-only, .content-mobile-common, .create-content-mobile, .distort-content-mobile {
+    display: none !important; }
+
+  .tablet-up, .create-content, .distort-content, .interact-content, .footer-content {
+    display: block !important; } }
 .splash-section {
   position: relative;
   background: url(../assets/images/splash_background.jpg);
@@ -75,44 +87,48 @@
 
 .create-content {
   width: 750px;
-  height: 540px; }
+  height: 540px;
+  width: 920px; }
 
-.create-phone {
-  float: right; }
+@media (max-width: 768px) {
+  .create-title-mobile {
+    text-align: center;
+    padding-top: 3vh;
+    font-size: 50px; } }
+@media (min-width: 540px) and (max-width: 768px) {
+  .create-title-mobile {
+    padding-top: 2vh;
+    font-size: 40px; } }
 
 .create-title {
   text-align: right;
   font-size: 70px;
-  font-weight: bold;
-  font-family: "aktiv-grotesk";
-  text-transform: uppercase;
   width: 400px;
   float: left; }
+  @media (min-width: 768px) {
+    .create-title {
+      width: 550px;
+      padding-top: 150px; } }
+
+@media (max-width: 768px) {
+  .create-phone-mobile {
+    height: 70vh; } }
+
+.create-phone {
+  float: right; }
+  @media (min-width: 768px) {
+    .create-phone {
+      margin-top: -300px; } }
 
 .create-blurb {
   text-align: right;
-  font-size: 27px;
-  font-family: "din-next";
-  color: #DFA29A;
-  letter-spacing: -1.5px;
-  line-height: 30px;
   width: 400px;
   float: left;
   margin-top: 2vh; }
+  @media (min-width: 768px) {
+    .create-blurb {
+      width: 550px; } }
 
-@media (min-width: 960px) {
-  .create-content {
-    width: 920px; }
-
-  .create-blurb {
-    width: 550px; }
-
-  .create-title {
-    width: 550px;
-    padding-top: 120px; }
-
-  .create-phone {
-    margin-top: -220px; } }
 .distort-section {
   position: relative;
   background: url(../assets/images/distort_background.jpg);
@@ -124,27 +140,11 @@
   width: 750px;
   height: 540px; }
 
-.distort-title-common, .distort-title-mobile, .distort-title {
-  font-weight: bold;
-  font-family: "aktiv-grotesk";
-  text-transform: uppercase;
-  margin-top: 0; }
-
-@media (max-width: 768px) {
-  .distort-title-mobile {
-    text-align: center;
-    padding-top: 3vh;
-    font-size: 50px; } }
-@media (min-width: 540px) and (max-width: 768px) {
-  .distort-title-mobile {
-    padding-top: 2vh;
-    font-size: 40px; } }
-
 @media (min-width: 768px) {
   .distort-title {
     margin-left: 375px;
     font-size: 70px;
-    margin-top: 17vh; } }
+    padding-top: 200px; } }
 
 @media (max-width: 768px) {
   .distort-phone-mobile {
@@ -154,33 +154,13 @@
   .distort-phone {
     float: left; } }
 
-.distort-blurb-common, .distort-blurb-mobile, .distort-blurb {
+.distort-blurb-common {
   font-family: "din-next";
   color: #DFA29A; }
-
-@media (max-width: 768px) {
-  .distort-blurb-mobile {
-    position: absolute;
-    bottom: 2vh;
-    left: 50%;
-    margin-left: -160px;
-    width: 320px;
-    letter-spacing: 0;
-    font-size: 20px;
-    text-align: center; } }
-@media (min-width: 540px) and (max-width: 768px) {
-  .distort-blurb-mobile {
-    bottom: 0;
-    margin-left: -320px;
-    width: 640px; } }
 
 @media (min-width: 768px) {
   .distort-blurb {
     margin-left: 375px;
-    font-size: 27px;
-    display: block;
-    letter-spacing: -1.5px;
-    line-height: 30px;
     margin-top: 3vh; } }
 
 @media (min-width: 960px) {
@@ -207,16 +187,11 @@
 
 .interact-title {
   font-size: 70px;
-  font-weight: bold;
-  font-family: "aktiv-grotesk";
-  text-transform: uppercase;
   text-align: center; }
 
 .interact-blurb {
   margin: 0 auto;
   font-size: 27px;
-  font-family: "din-next";
-  color: #DFA29A;
   letter-spacing: -1.5px;
   line-height: 30px;
   text-align: center;
@@ -334,18 +309,48 @@
   bottom: 0;
   right: 0; }
 
-@media (max-width: 767px) {
-  .mobile-only, .distort-content-mobile {
-    display: block !important; }
+.title-common, .create-title-mobile, .create-title, .distort-title, .interact-title, .title-mobile-common, .distort-title-mobile {
+  font-weight: bold;
+  font-family: "aktiv-grotesk";
+  text-transform: uppercase;
+  margin-top: 0; }
 
-  .tablet-up, .create-content, .distort-content, .interact-content, .footer-content {
-    display: none !important; } }
-@media (min-width: 768px) {
-  .mobile-only, .distort-content-mobile {
-    display: none !important; }
+@media (max-width: 768px) {
+  .title-mobile-common, .distort-title-mobile {
+    text-align: center;
+    padding-top: 3vh;
+    font-size: 50px; } }
+@media (min-width: 540px) and (max-width: 768px) {
+  .title-mobile-common, .distort-title-mobile {
+    padding-top: 2vh;
+    font-size: 40px; } }
 
-  .tablet-up, .create-content, .distort-content, .interact-content, .footer-content {
-    display: block !important; } }
+.blurb-common, .create-blurb, .distort-blurb, .interact-blurb, .blurb-mobile-common, .create-blurb-mobile, .distort-blurb-mobile {
+  font-family: "din-next";
+  color: #DFA29A; }
+  @media (min-width: 768px) {
+    .blurb-common, .create-blurb, .distort-blurb, .interact-blurb, .blurb-mobile-common, .create-blurb-mobile, .distort-blurb-mobile {
+      font-size: 27px;
+      display: block;
+      letter-spacing: -1.5px;
+      line-height: 30px; } }
+
+@media (max-width: 768px) {
+  .blurb-mobile-common, .create-blurb-mobile, .distort-blurb-mobile {
+    position: absolute;
+    bottom: 2vh;
+    left: 50%;
+    margin-left: -160px;
+    width: 320px;
+    letter-spacing: 0;
+    font-size: 20px;
+    text-align: center; } }
+@media (min-width: 540px) and (max-width: 768px) {
+  .blurb-mobile-common, .create-blurb-mobile, .distort-blurb-mobile {
+    bottom: 2vh;
+    margin-left: -320px;
+    width: 640px; } }
+
 body {
   color: white;
   margin: 0;
@@ -373,7 +378,7 @@ a:active {
   color: #F4B6A4;
   text-decoration: none; }
 
-.absolute-center, .splash-icon, .create-content, .distort-content, .distort-phone-mobile, .interact-content, .footer-blurb {
+.absolute-center, .splash-icon, .create-content, .create-phone-mobile, .distort-content, .distort-phone-mobile, .interact-content, .footer-blurb {
   margin: auto;
   position: absolute;
   top: 0;

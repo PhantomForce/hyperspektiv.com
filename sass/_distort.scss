@@ -7,7 +7,7 @@
 }
 
 .distort-content-mobile {
-    @extend .mobile-only;
+    @extend .content-mobile-common 
 }
 
 .distort-content {
@@ -18,36 +18,17 @@
     height: 540px;
 }
 
-.distort-title-common {
-    font-weight: bold;
-    font-family: "aktiv-grotesk";
-    text-transform: uppercase;
-    margin-top: 0;
-}
-
 .distort-title-mobile {
-    @extend .distort-title-common;
-    
-    @include mobile-portrait-up {
-        text-align: center;
-        padding-top: 3vh;
-        font-size: 50px;
-
-    }
-    
-    @include mobile-landscape {
-        padding-top: 2vh;
-        font-size: 40px;
-    }
+    @extend .title-mobile-common;
 }
 
 .distort-title {
-    @extend .distort-title-common;
+    @extend .title-common;
     
     @include tablet-up {
         margin-left: 375px;
         font-size: 70px;
-        margin-top: 17vh;
+        padding-top: 200px;
     }
 }
 
@@ -77,35 +58,14 @@
 }
 
 .distort-blurb-mobile {
-    @extend .distort-blurb-common;
-    
-    @include mobile-portrait-up {
-        position: absolute;
-        bottom: 2vh;
-        left:50%;
-        margin-left: -160px;
-        width: 320px;
-        letter-spacing: 0;
-        font-size: 20px;
-        text-align: center;
-    }
-    
-    @include mobile-landscape {
-        bottom: 0;
-        margin-left: -320px;
-        width: 640px;
-    }
+    @extend .blurb-mobile-common;
 }
 
 .distort-blurb {
-    @extend .distort-blurb-common;
+    @extend .blurb-common;
     
     @include tablet-up {
         margin-left: 375px;
-        font-size: 27px;
-        display: block;
-        letter-spacing: -1.5px;
-        line-height: 30px;
         margin-top: 3vh;
     }
 }

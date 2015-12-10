@@ -66,3 +66,24 @@ $desktop-width: 1024px;
         @content;
     }
 }
+
+
+@media (max-width: 767px) {
+    .mobile-only {
+        display: block !important;   
+    }
+    
+    .tablet-up {
+        display: none !important;
+    }
+}
+
+@media (min-width: 768px) {
+    .mobile-only {
+        display: none !important;   
+    }
+    
+    .tablet-up {
+    display: block !important;
+    }
+}
