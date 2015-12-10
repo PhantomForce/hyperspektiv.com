@@ -30,70 +30,88 @@
         js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.4&appId=1668424770058891";
         fjs.parentNode.insertBefore(js, fjs);
         }(document, 'script', 'facebook-jssdk'));</script>
-
         
-        <nav class="navbar hyperspektiv-navbar navbar-default navbar-fixed-top" id="nav" role="navigation">
+        <nav class="tablet-up navbar hyperspektiv-navbar navbar-default navbar-fixed-top" id="nav" role="navigation">
             <div class="navbar-bg transition"></div>
             <img class="app-store-icon" src="assets/images/appstore.png"></img>
             <div class="container-fluid">
 
                 <div class="navbar-content transition">
                     <ul class="navbar-list">
-                        <li class="navbar-text-link"><center><a href="#distort" class="navbar-item">Distort</a></center></li>
+                        <li class="navbar-text-link"><center><a href="#distort">Distort</a></center></li>
                         <li class="navbar-text-link"><center><a href="#create">Create</a></center></li>
                         <li><a href="#splash"><img class="navbar-logo" src="assets/images/navbar_h.png"/></a></li>
                         <li class="navbar-text-link"><center><a href="#interact">Interact</a></center></li>
                         <li class="navbar-text-link"><center><a href="#contact">Contact</a></center></li>
                     </ul>   
+                    
+                    <ul class="social-navbar-list">
+                        <li class="navbar-social-link">
+                            <a href="http://facebook.com/hyperspektiv" target="_blank"><img  rc="assets/images/facebook.png" /></a>
+                        </li>
+                    </ul>
                 </div>
 
             </div>
         </nav>
     
-        <a href="#news"><img id="sign-up" src="assets/images/sign_up.png" /></a>
+        <a href="#news"><img class="tablet-up" id="sign-up" src="assets/images/sign_up.png" /></a>
             
         <a name="splash"></a>
 
 
         <div class="splash-section">
-            <div id="vid">
+            <!--
+            <div id="tablet-up vid">
                 <video autoplay="" loop="" id="bgvid" muted>
                     <source src="assets/videos/hypersplash720dark.mp4" type="video/mp4">
                 </video>
             </div>
-            
+            -->
             <img class="splash-logo" src="assets/images/hyperspektiv.png" />
             <img class="splash-icon" src="assets/images/h.png" />
             
-  
-            <a class="distorted-reality" id="distorted-reality" href="#distort">
+            <div class="distorted-reality mobile-only">
+                <p class="splash-text">Distorted Reality</p>
+            </div>
+            
+            <a class="distorted-reality tablet-up" id="distorted-reality" href="#distort">
                 <p class="splash-text">Distorted Reality</p>
                 <img id="splash-arrow" class="splash-arrow" src="assets/images/down_arrow.png" />
             </a>
-                
         </div>
         
+        
         <div class="distort-section">
-            <a name="distort"></a>
+            <div class="distort-content-mobile">
+                <h1 class="distort-title-mobile">Distort</h1>
+                <img src="assets/images/distort_phone.png" class="distort-phone-mobile"/>
+                <p class="distort-blurb-mobile">HYPERSPEKTIV lets you experience and capture distorted reality.</p>
+            </div>
+
+
             <div class="distort-content">
+                <a name="distort"></a>
                 <img src="assets/images/distort_phone.png" class="distort-phone"/>
                 <h1 class="distort-title">
                     Distort 
                 </h1>
                 <p class="distort-blurb">
-                    HYPERSPEKTIV allows you to experience and capture a distorted reality. It's a creative tool that unlocks and transforms the beauty around you. Create stunning HD video and photos.
+                    HYPERSPEKTIV allows you to experience and capture distorted reality.
                 </p>
             </div>
+            
         </div>
         
         <div class="create-section">
+            
             <a name="create"></a>
             <div class="create-content">
                 <h1 class="create-title">
                     Create
                 </h1>
                 <p class="create-blurb">
-                    Our powerful tools allow you to customize and control the filters: make a music video, take a next-level selfie, perform a VJ set, or simply enjoy when viewing the world through HYPERSPEKTIV's lens. Everyone from professional VJs to little kids will enjoy HYPERSPEKTIV.
+                    Powerful tools allow you to customize and control the filters.
                 </p>
 
                 <img src="assets/images/create_phone.png" class="create-phone"/>
@@ -102,19 +120,22 @@
         </div>
         
         <div class="interact-section">
+            
             <a name="interact"></a>
-            <div class="interact-content">
+            <div class="container interact-content">
                 <h1 class="interact-title">
                     Interact
                 </h1>
                 <img src="assets/images/interact_phone.png" class="interact-phone"/>
                 <p class="interact-blurb">
-                    Touch and manipulate the effects, record in real-time. Do things on your phone that you didn't know were possible with HYPERSPEKTIV. It's both a techno-kaleidoscope and a powerful creative tool.
+                    Touch and manipulate the effects, record in real-time.
                 </p>
             </div>
+            
         </div>
         
         <div class="footer-section">
+
             <a name="contact"></a>
             <div class="container footer-content">
                 <p class="footer-blurb">
@@ -124,6 +145,7 @@
                     © 2015-2016 Phantom Force, LP
                 </p>
             </div>
+            
         </div>
         
         <script src="bower_components/jquery/dist/jquery.min.js"></script>

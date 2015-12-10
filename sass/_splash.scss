@@ -2,27 +2,26 @@
 
 .splash-section {
     position: relative;
-    //background: url(../assets/images/splash_background.jpg) ;
-    //background-size: cover;
-    //background-position: 50% 50%;
-    height: 90vh;
-    
-    @include tablet-up {
-        height: 100vh;   
-    }
+    background: url(../assets/images/splash_background.jpg) ;
+    background-size: cover;
+    background-position: 50% 50%;
+    height: 100vh;
 }
 
 .splash-logo {
     display: block;
     margin: 0 auto;
-    padding-top: 60px;
+    
+    padding-top: 12vh;
+    @include tablet-up {
+       padding-top: 60px; 
+    }
 }
 
 .splash-icon {
     @extend .absolute-center;
 
-    
-    height: 120px;
+    height: 230px;
     @include tablet-up {
         height: 343px;   
     }

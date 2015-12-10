@@ -3601,15 +3601,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/index copy.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/index copy.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/index.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -3864,6 +3855,72 @@
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
+		},
+	"\/sources\/MOBILE MOCKUPS\/MOBILE SITE 1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 639903,
+		"inputAbbreviatedPath": "\/sources\/MOBILE MOCKUPS\/MOBILE SITE 1.png",
+		"outputAbbreviatedPath": "\/sources\/MOBILE MOCKUPS\/MOBILE SITE 1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/sources\/MOBILE MOCKUPS\/MOBILE SITE 2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.03527e+06,
+		"inputAbbreviatedPath": "\/sources\/MOBILE MOCKUPS\/MOBILE SITE 2.png",
+		"outputAbbreviatedPath": "\/sources\/MOBILE MOCKUPS\/MOBILE SITE 2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/sources\/MOBILE MOCKUPS\/MOBILE SITE 3.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 913585,
+		"inputAbbreviatedPath": "\/sources\/MOBILE MOCKUPS\/MOBILE SITE 3.png",
+		"outputAbbreviatedPath": "\/sources\/MOBILE MOCKUPS\/MOBILE SITE 3.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/sources\/MOBILE MOCKUPS\/MOBILE SITE 4.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.13293e+06,
+		"inputAbbreviatedPath": "\/sources\/MOBILE MOCKUPS\/MOBILE SITE 4.png",
+		"outputAbbreviatedPath": "\/sources\/MOBILE MOCKUPS\/MOBILE SITE 4.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/sources\/MOBILE MOCKUPS\/MOBILE SITE 5.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.27254e+06,
+		"inputAbbreviatedPath": "\/sources\/MOBILE MOCKUPS\/MOBILE SITE 5.png",
+		"outputAbbreviatedPath": "\/sources\/MOBILE MOCKUPS\/MOBILE SITE 5.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/sources\/MOBILE MOCKUPS\/MOBILE SITE floater.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.28124e+06,
+		"inputAbbreviatedPath": "\/sources\/MOBILE MOCKUPS\/MOBILE SITE floater.png",
+		"outputAbbreviatedPath": "\/sources\/MOBILE MOCKUPS\/MOBILE SITE floater.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/sources\/MOCKUPS\/2.jpg": {
 		"fileType": 16384,

@@ -3,9 +3,9 @@
         display: block !important;   
     }
     
-  .tablet-up {
-    display: none !important;
-  }
+    .tablet-up {
+        display: none !important;
+    }
 }
 
 @media (min-width: 768px) {
@@ -13,7 +13,7 @@
         display: none !important;   
     }
     
-  .tablet-up {
+    .tablet-up {
     display: block !important;
-  }
+    }
 }
