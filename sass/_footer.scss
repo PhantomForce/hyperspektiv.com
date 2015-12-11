@@ -7,18 +7,32 @@
 }
 
 .footer-content {
-    @extend .tablet-up;
+    //@extend .tablet-up;
 }
 
 .footer-blurb {
-    @extend .absolute-center;
+    //@extend .absolute-center;
     height: 40px;
     font-size: 25px;
     font-family: "din-next";
     letter-spacing: 1px;
     line-height: 26px;
     text-align: center;
-    width: 600px;
+    width: 100%;
+    
+    padding-left:2vh;
+    padding-right: 2vh;
+    padding-top: 20vh;
+    
+    @include tablet-up {
+        padding: 0;
+        padding-top: 25vh;
+    }
+}
+
+.footer-app-store {
+    @extend .absolute-center;
+    height: 70px;
 }
 
 .footer-copyright {
@@ -30,5 +44,5 @@
     text-align: center;
     text-transform: uppercase;
     left:50%;
-    margin-left: -115px;
+    margin-left: -127px;
 }

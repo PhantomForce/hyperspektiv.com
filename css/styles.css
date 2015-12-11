@@ -2,7 +2,7 @@
   .mobile-only, .content-mobile-common, .splash-content-mobile, .create-content-mobile, .distort-content-mobile, .interact-content-mobile {
     display: block !important; }
 
-  .tablet-up, .splash-content, .create-content, .distort-content, .interact-content, .footer-content {
+  .tablet-up, .splash-content, .create-content, .distort-content, .interact-content {
     display: none !important; }
 
   .desktop-up {
@@ -11,7 +11,7 @@
   .mobile-only, .content-mobile-common, .splash-content-mobile, .create-content-mobile, .distort-content-mobile, .interact-content-mobile {
     display: none !important; }
 
-  .tablet-up, .splash-content, .create-content, .distort-content, .interact-content, .footer-content {
+  .tablet-up, .splash-content, .create-content, .distort-content, .interact-content {
     display: block !important; }
 
   .desktop-up {
@@ -250,7 +250,17 @@
   letter-spacing: 1px;
   line-height: 26px;
   text-align: center;
-  width: 600px; }
+  width: 100%;
+  padding-left: 2vh;
+  padding-right: 2vh;
+  padding-top: 20vh; }
+  @media (min-width: 768px) {
+    .footer-blurb {
+      padding: 0;
+      padding-top: 25vh; } }
+
+.footer-app-store {
+  height: 70px; }
 
 .footer-copyright {
   position: absolute;
@@ -261,7 +271,7 @@
   text-align: center;
   text-transform: uppercase;
   left: 50%;
-  margin-left: -115px; }
+  margin-left: -127px; }
 
 .hyperspektiv-navbar {
   height: 120px;
@@ -417,7 +427,7 @@ a:active {
   color: #F4B6A4;
   text-decoration: none; }
 
-.absolute-center, .splash-main-block-mobile, .splash-icon, .create-content, .distort-content, .interact-content, .footer-blurb, .phone-mobile-common, .create-phone-mobile, .distort-phone-mobile, .interact-phone-mobile {
+.absolute-center, .splash-main-block-mobile, .splash-icon, .create-content, .distort-content, .interact-content, .footer-app-store, .phone-mobile-common, .create-phone-mobile, .distort-phone-mobile, .interact-phone-mobile {
   margin: auto;
   position: absolute;
   top: 0;
