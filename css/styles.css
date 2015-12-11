@@ -2,7 +2,7 @@
   .mobile-only, .content-mobile-common, .splash-content-mobile, .create-content-mobile, .distort-content-mobile, .interact-content-mobile {
     display: block !important; }
 
-  .tablet-up, .splash-content, .create-content, .distort-content, .interact-content {
+  .tablet-up, .splash-content, .create-content, .distort-content, .interact-content, #sign-up {
     display: none !important; }
 
   .desktop-up {
@@ -11,7 +11,7 @@
   .mobile-only, .content-mobile-common, .splash-content-mobile, .create-content-mobile, .distort-content-mobile, .interact-content-mobile {
     display: none !important; }
 
-  .tablet-up, .splash-content, .create-content, .distort-content, .interact-content {
+  .tablet-up, .splash-content, .create-content, .distort-content, .interact-content, #sign-up {
     display: block !important; }
 
   .desktop-up {
@@ -243,6 +243,10 @@
   height: 100vh;
   position: relative; }
 
+.footer-main-block {
+  width: 253px;
+  height: 110px; }
+
 .footer-blurb {
   height: 40px;
   font-size: 25px;
@@ -260,7 +264,32 @@
       padding-top: 25vh; } }
 
 .footer-app-store {
-  height: 70px; }
+  height: 70px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  display: block; }
+
+.footer-form {
+  padding-top: 10px; }
+
+.footer-form-email {
+  width: 253px !important; }
+  @media (min-width: 1025px) {
+    .footer-form-email {
+      width: auto !important; } }
+
+.footer-signup {
+  margin: 0 auto;
+  width: 100px;
+  display: block; }
+  @media (min-width: 768px) {
+    .footer-signup {
+      margin-top: 20px; } }
+  @media (min-width: 1025px) {
+    .footer-signup {
+      width: auto;
+      margin: auto;
+      display: inline; } }
 
 .footer-copyright {
   position: absolute;
@@ -352,7 +381,8 @@
 #sign-up {
   position: fixed;
   bottom: 0;
-  right: 0; }
+  right: 0;
+  z-index: 100; }
 
 .title-common, .create-title, .distort-title, .interact-title, .title-mobile-common, .create-title-mobile, .distort-title-mobile, .interact-title-mobile {
   font-weight: bold;
@@ -427,7 +457,7 @@ a:active {
   color: #F4B6A4;
   text-decoration: none; }
 
-.absolute-center, .splash-main-block-mobile, .splash-icon, .create-content, .distort-content, .interact-content, .footer-app-store, .phone-mobile-common, .create-phone-mobile, .distort-phone-mobile, .interact-phone-mobile {
+.absolute-center, .splash-main-block-mobile, .splash-icon, .create-content, .distort-content, .interact-content, .footer-main-block, .phone-mobile-common, .create-phone-mobile, .distort-phone-mobile, .interact-phone-mobile {
   margin: auto;
   position: absolute;
   top: 0;

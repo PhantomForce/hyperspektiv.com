@@ -10,6 +10,13 @@
     //@extend .tablet-up;
 }
 
+.footer-main-block {
+    @extend .absolute-center;
+    
+    width: 253px;
+    height: 110px;
+}
+
 .footer-blurb {
     //@extend .absolute-center;
     height: 40px;
@@ -31,8 +38,38 @@
 }
 
 .footer-app-store {
-    @extend .absolute-center;
     height: 70px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.footer-form {
+    padding-top: 10px;
+}
+
+.footer-form-email {
+    width: 253px !important; 
+    
+    @include desktop-up {
+        width: auto !important;
+    }
+}
+
+.footer-signup {
+    margin: 0 auto;
+    width: 100px;
+    display: block;
+    
+    @include tablet-up {
+        margin-top: 20px;   
+    }
+    
+    @include desktop-up {
+        width: auto;
+        margin: auto;
+        display: inline;
+    }
 }
 
 .footer-copyright {
