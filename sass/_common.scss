@@ -1,5 +1,9 @@
 @import "_mixins.scss";
 
+.content-mobile-common {
+    @extend .mobile-only;
+}
+
 .title-common {
     font-weight: bold;
     font-family: "aktiv-grotesk";
@@ -22,6 +26,14 @@
     }
 }
 
+.phone-mobile-common {
+    @extend .absolute-center;
+    
+    @include mobile-portrait-up {
+        height: 70vh;   
+    }
+}
+
 .blurb-common {    
     font-family: "din-next";
     color: #DFA29A;
@@ -32,10 +44,6 @@
         letter-spacing: -1.5px;
         line-height: 30px;
     }
-}
-
-.content-mobile-common {
-    @extend .mobile-only;
 }
 
 .blurb-mobile-common {

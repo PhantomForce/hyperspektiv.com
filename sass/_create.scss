@@ -21,18 +21,7 @@
 }
 
 .create-title-mobile {
-    @extend .title-common; 
-    
-    @include mobile-portrait-up {
-        text-align: center;
-        padding-top: 3vh;
-        font-size: 50px;
-    }
-    
-    @include mobile-landscape {
-        padding-top: 2vh;
-        font-size: 40px;
-    }
+    @extend .title-mobile-common;
 }
 
 .create-title {
@@ -50,11 +39,7 @@
 }
 
 .create-phone-mobile {
-    @extend .absolute-center;
-    
-    @include mobile-portrait-up {
-        height: 70vh;   
-    }
+    @extend .phone-mobile-common;
 }
 
 .create-phone {

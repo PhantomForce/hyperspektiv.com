@@ -32,17 +32,8 @@
     }
 }
 
-
-.distort-phone-common {
-    
-}
-
 .distort-phone-mobile {
-    @extend .absolute-center;
-    
-    @include mobile-portrait-up {
-        height: 70vh;   
-    }
+    @extend .phone-mobile-common;
 }
 
 .distort-phone {    
@@ -54,7 +45,6 @@
 .distort-blurb-common {    
     font-family: "din-next";
     color: #DFA29A;
-    
 }
 
 .distort-blurb-mobile {

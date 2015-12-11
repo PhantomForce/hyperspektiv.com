@@ -6,11 +6,35 @@
     position: relative;
 }
 
+.interact-content-mobile {
+    @extend .content-mobile-common;
+}
+
 .interact-content {
     @extend .tablet-up;
     @extend .absolute-center;
     width: 1000px;
     height: 500px;
+}
+
+.interact-title-mobile {
+    @extend .title-mobile-common;
+}
+
+.interact-title {
+    @extend .title-common;
+    
+    font-size: 70px;
+    text-align: center;
+}
+
+.interact-phone-mobile {
+    @extend .phone-mobile-common;
+    height: 50vh !important; 
+    overflow-x: auto;
+    @include mobile-portrait-up {
+          
+    }
 }
 
 .interact-phone {
@@ -19,11 +43,8 @@
     margin-top: 4vh;
 }
 
-.interact-title {
-    @extend .title-common;
-    
-    font-size: 70px;
-    text-align: center;
+.interact-blurb-mobile {
+    @extend .blurb-mobile-common;
 }
 
 .interact-blurb {
