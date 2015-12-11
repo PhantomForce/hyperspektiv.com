@@ -6,38 +6,106 @@
     background-size: cover;
     background-position: 50% 50%;
     height: 100vh;
+    
+    @include desktop-up {
+        background: none;   
+    }
 }
 
-.splash-logo {
+.splash-content-mobile {
+    @extend .content-mobile-common;
+}
+
+.splash-content {
+    @extend .tablet-up;
+}
+
+.splash-app-store-mobile {
+    padding-top: 16px;
+    width: 180px;
+    margin: 0 auto;
+    display: block;
+    
+    @include mobile-landscape {
+        width: 120px;
+        padding-top: 2px;
+    }
+}
+
+.splash-main-block-mobile {
+    @extend .absolute-center;
+    height: 350px;
+    
+    @include mobile-landscape {
+        height: 230px;   
+    }
+}
+
+.splash-title-common {
     display: block;
     margin: 0 auto;
     
-    padding-top: 12vh;
+    
     @include tablet-up {
        padding-top: 60px; 
     }
+}
+
+.splash-title-mobile {
+    @extend .splash-title-common;
+}
+
+.splash-title {
+    @extend .splash-title-common;
+    padding-top: 12vh;
 }
 
 .splash-icon {
     @extend .absolute-center;
 
     height: 230px;
+    
+    @include mobile-landscape {
+        height: 150px;   
+    }
+    
     @include tablet-up {
         height: 343px;   
     }
 }
 
-.distorted-reality {
+.distorted-reality-common {
     position: absolute;
     bottom: 2vh;
     left:50%;
+    
+}
+
+.distorted-reality-mobile {
+    @extend .distorted-reality-common;
+    bottom: 0vh;
+    margin-left: -85px;
+}
+
+.distorted-reality {
+   @extend .distorted-reality-common; 
     margin-left: -107px;
 }
 
-.splash-text {
+.splash-text-common {
     text-align: center;
     text-transform: uppercase;
     font-family: "din-condensed-web";
+    
+}
+
+.splash-text-mobile {
+    @extend .splash-text-common;
+    font-size: 18px;
+}
+
+.splash-text {
+    @extend .splash-text-common;
     font-size: 25px;
 }
 
@@ -82,5 +150,5 @@
 }
     
 .distorted-reality {
-    //z-index: 100;
+
 }

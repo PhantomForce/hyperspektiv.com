@@ -1,14 +1,23 @@
 @media (max-width: 767px) {
-  .mobile-only, .content-mobile-common, .create-content-mobile, .distort-content-mobile, .interact-content-mobile {
+  .mobile-only, .content-mobile-common, .splash-content-mobile, .create-content-mobile, .distort-content-mobile, .interact-content-mobile {
     display: block !important; }
 
-  .tablet-up, .create-content, .distort-content, .interact-content, .footer-content {
-    display: none !important; } }
-@media (min-width: 768px) {
-  .mobile-only, .content-mobile-common, .create-content-mobile, .distort-content-mobile, .interact-content-mobile {
+  .tablet-up, .splash-content, .create-content, .distort-content, .interact-content, .footer-content {
     display: none !important; }
 
-  .tablet-up, .create-content, .distort-content, .interact-content, .footer-content {
+  .desktop-up {
+    display: none !important; } }
+@media (min-width: 768px) {
+  .mobile-only, .content-mobile-common, .splash-content-mobile, .create-content-mobile, .distort-content-mobile, .interact-content-mobile {
+    display: none !important; }
+
+  .tablet-up, .splash-content, .create-content, .distort-content, .interact-content, .footer-content {
+    display: block !important; }
+
+  .desktop-up {
+    display: none !important; } }
+@media (min-width: 1024px) {
+  .desktop-up {
     display: block !important; } }
 .splash-section {
   position: relative;
@@ -16,31 +25,66 @@
   background-size: cover;
   background-position: 50% 50%;
   height: 100vh; }
+  @media (min-width: 1024px) {
+    .splash-section {
+      background: none; } }
 
-.splash-logo {
-  display: block;
+.splash-app-store-mobile {
+  padding-top: 16px;
+  width: 180px;
   margin: 0 auto;
-  padding-top: 12vh; }
+  display: block; }
+  @media (min-width: 540px) and (max-width: 768px) {
+    .splash-app-store-mobile {
+      width: 120px;
+      padding-top: 2px; } }
+
+.splash-main-block-mobile {
+  height: 350px; }
+  @media (min-width: 540px) and (max-width: 768px) {
+    .splash-main-block-mobile {
+      height: 230px; } }
+
+.splash-title-common, .splash-title-mobile, .splash-title {
+  display: block;
+  margin: 0 auto; }
   @media (min-width: 768px) {
-    .splash-logo {
+    .splash-title-common, .splash-title-mobile, .splash-title {
       padding-top: 60px; } }
+
+.splash-title {
+  padding-top: 12vh; }
 
 .splash-icon {
   height: 230px; }
+  @media (min-width: 540px) and (max-width: 768px) {
+    .splash-icon {
+      height: 150px; } }
   @media (min-width: 768px) {
     .splash-icon {
       height: 343px; } }
 
-.distorted-reality {
+.distorted-reality-common, .distorted-reality-mobile, .distorted-reality {
   position: absolute;
   bottom: 2vh;
-  left: 50%;
+  left: 50%; }
+
+.distorted-reality-mobile {
+  bottom: 0vh;
+  margin-left: -85px; }
+
+.distorted-reality {
   margin-left: -107px; }
 
-.splash-text {
+.splash-text-common, .splash-text-mobile, .splash-text {
   text-align: center;
   text-transform: uppercase;
-  font-family: "din-condensed-web";
+  font-family: "din-condensed-web"; }
+
+.splash-text-mobile {
+  font-size: 18px; }
+
+.splash-text {
   font-size: 25px; }
 
 .splash-arrow {
@@ -162,18 +206,31 @@
   width: 1000px;
   height: 500px; }
 
+@media (max-width: 768px) {
+  .interact-title-mobile {
+    padding-top: 24vh !important; } }
+@media (min-width: 540px) and (max-width: 768px) {
+  .interact-title-mobile {
+    padding-top: 22vh !important; } }
+
 .interact-title {
   font-size: 70px;
   text-align: center; }
 
 .interact-phone-mobile {
-  height: 50vh !important;
-  overflow-x: auto; }
+  height: 30vh !important; }
 
 .interact-phone {
   display: block;
   margin: 0 auto;
   margin-top: 4vh; }
+
+@media (max-width: 768px) {
+  .interact-blurb-mobile {
+    bottom: 25vh !important; } }
+@media (min-width: 540px) and (max-width: 768px) {
+  .interact-blurb-mobile {
+    bottom: 23vh !important; } }
 
 .interact-blurb {
   margin: 0 auto;
@@ -368,7 +425,7 @@ a:active {
   color: #F4B6A4;
   text-decoration: none; }
 
-.absolute-center, .splash-icon, .create-content, .distort-content, .interact-content, .footer-blurb, .phone-mobile-common, .create-phone-mobile, .distort-phone-mobile, .interact-phone-mobile {
+.absolute-center, .splash-main-block-mobile, .splash-icon, .create-content, .distort-content, .interact-content, .footer-blurb, .phone-mobile-common, .create-phone-mobile, .distort-phone-mobile, .interact-phone-mobile {
   margin: auto;
   position: absolute;
   top: 0;

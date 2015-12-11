@@ -19,6 +19,14 @@
 
 .interact-title-mobile {
     @extend .title-mobile-common;
+    
+    @include mobile-portrait-up {
+        padding-top: 24vh !important;
+    }
+    
+    @include mobile-landscape {
+        padding-top: 22vh !important;
+    }
 }
 
 .interact-title {
@@ -28,13 +36,18 @@
     text-align: center;
 }
 
+//.interact-phone-div-mobile {
+//    @extend .absolute-center;
+//    background: url(../assets/images/interact_phone.png) center top no-repeat; 
+//    width: 100%; 
+//    overflow-x: hidden;
+//    overflow-y: hidden;
+//    height: 30vh;
+//}
+
 .interact-phone-mobile {
     @extend .phone-mobile-common;
-    height: 50vh !important; 
-    overflow-x: auto;
-    @include mobile-portrait-up {
-          
-    }
+    height: 30vh !important; 
 }
 
 .interact-phone {
@@ -45,11 +58,20 @@
 
 .interact-blurb-mobile {
     @extend .blurb-mobile-common;
+    
+    @include mobile-portrait-up {
+        bottom: 25vh !important;
+    }
+    
+    @include mobile-landscape {
+        bottom: 23vh !important;
+    }
 }
 
 .interact-blurb {
     @extend .blurb-common;
     
+
     margin: 0 auto;
     font-size: 27px;
     letter-spacing: -1.5px;

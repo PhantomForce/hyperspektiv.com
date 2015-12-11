@@ -76,6 +76,10 @@ $desktop-width: 1024px;
     .tablet-up {
         display: none !important;
     }
+    
+    .desktop-up {
+        display: none !important;
+    }
 }
 
 @media (min-width: 768px) {
@@ -84,6 +88,16 @@ $desktop-width: 1024px;
     }
     
     .tablet-up {
-    display: block !important;
+        display: block !important;
+    }
+    
+    .desktop-up {
+        display: none !important;   
+    }
+}
+
+@media (min-width: 1024px) {    
+    .desktop-up {
+        display: block !important;   
     }
 }
