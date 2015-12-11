@@ -130,7 +130,6 @@
   position: relative; }
 
 .create-content {
-  width: 750px;
   height: 540px; }
 
 .create-title {
@@ -141,7 +140,13 @@
   @media (min-width: 768px) {
     .create-title {
       width: 400px;
-      padding-top: 150px; } }
+      padding-top: 200px; } }
+  @media (min-width: 768px) {
+    .create-title {
+      margin-left: -150px; } }
+  @media (min-width: 1160px) {
+    .create-title {
+      margin-left: 0; } }
 
 .create-phone {
   float: right; }
@@ -154,6 +159,15 @@
   width: 400px;
   float: left;
   margin-top: 2vh; }
+  @media (min-width: 768px) {
+    .create-blurb {
+      margin-left: -150px; } }
+  @media (min-width: 1160px) {
+    .create-blurb {
+      margin-left: 0; } }
+
+.create-phone-section {
+  background: url(../assets/images/create_phone.png); }
 
 .distort-section {
   position: relative;
@@ -171,21 +185,13 @@
     padding-top: 200px; } }
 
 .distort-phone-section {
-  background: url(../assets/images/distort_phone.png);
-  background-size: cover;
-  background-position: 50% 50%;
-  width: 299px;
-  height: 570px; }
+  background: url(../assets/images/distort_phone.png); }
   @media (min-width: 768px) {
     .distort-phone-section {
       margin-left: -150px; } }
   @media (min-width: 1160px) {
     .distort-phone-section {
       margin-left: 0; } }
-
-.distort-video {
-  margin-left: 34px;
-  margin-top: 83px; }
 
 @media (min-width: 768px) {
   .distort-phone {
@@ -228,6 +234,17 @@
   display: block;
   margin: 0 auto;
   margin-top: 4vh; }
+
+.interact-phone-section {
+  background-size: cover;
+  background-position: 50% 50%;
+  width: 570px;
+  height: 299px;
+  background: url(../assets/images/interact_phone.png); }
+
+.interact-video {
+  margin-top: 34px;
+  margin-left: 83px; }
 
 @media (max-width: 768px) {
   .interact-blurb-mobile {
@@ -437,6 +454,16 @@
     bottom: 2vh;
     margin-left: -320px;
     width: 640px; } }
+
+.phone-section-common, .create-phone-section, .distort-phone-section {
+  background-size: cover;
+  background-position: 50% 50%;
+  width: 299px;
+  height: 570px; }
+
+.phone-video-common, .create-video, .distort-video {
+  margin-left: 34px;
+  margin-top: 83px; }
 
 body {
   color: white;

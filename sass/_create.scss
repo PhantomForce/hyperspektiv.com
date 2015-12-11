@@ -13,8 +13,7 @@
 .create-content {
     @extend .tablet-up;
     @extend .absolute-center;
-    
-    width: 750px;
+
     height: 540px;
 }
 
@@ -32,7 +31,16 @@
     
     @include tablet-up {
         width:400px;
-        padding-top: 150px;   
+        padding-top: 200px;   
+    }
+    
+        
+    @include tablet-up {
+        margin-left: -150px;   
+    }
+    
+    @include large-desktop-up {
+        margin-left: 0;   
     }
 }
 
@@ -60,4 +68,23 @@
     float:left;
     margin-top: 2vh;
     
+    @include tablet-up {
+        margin-left: -150px;   
+    }
+    
+    @include large-desktop-up {
+        margin-left: 0;   
+    }
+    
+}
+
+.create-phone-section {
+    @extend .phone-section-common;
+    background: url(../assets/images/create_phone.png) ;
+    
+
+}
+
+.create-video {
+    @extend .phone-video-common;
 }

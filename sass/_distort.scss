@@ -33,11 +33,9 @@
 
 
 .distort-phone-section {
+    @extend .phone-section-common;
     background: url(../assets/images/distort_phone.png) ;
-    background-size: cover;
-    background-position: 50% 50%;
-    width: 299px;
-    height: 570px; 
+    
     
     @include tablet-up {
         margin-left: -150px;   
@@ -49,8 +47,7 @@
 }
 
 .distort-video {
-    margin-left: 34px;
-    margin-top: 83px;
+    @extend .phone-video-common;
 }
 
 .distort-phone-mobile {
