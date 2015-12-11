@@ -29,7 +29,9 @@
 
 $mobile-portrait-max-width: 540px;
 $tablet-width: 768px;
+$small-desktop-width: 960px;
 $desktop-width: 1025px;
+$large-desktop-width: 1160px;
 
 @mixin mobile-portrait-up {
     @media (max-width: #{$tablet-width}) {
@@ -49,8 +51,20 @@ $desktop-width: 1025px;
     }
 }
 
+@mixin small-desktop-up {
+    @media (min-width: #{$small-desktop-width}) {
+        @content;   
+    }
+}
+
 @mixin desktop-up {
     @media (min-width: #{$desktop-width}) {
+        @content;   
+    }
+}
+
+@mixin large-desktop-up {
+    @media (min-width: #{$large-desktop-width}) {
         @content;   
     }
 }

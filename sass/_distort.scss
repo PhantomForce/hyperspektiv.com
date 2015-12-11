@@ -43,7 +43,7 @@
         margin-left: -150px;   
     }
     
-    @include desktop {
+    @include large-desktop-up {
         margin-left: 0;   
     }
 }
