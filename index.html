@@ -33,7 +33,7 @@
         
         <nav class="tablet-up navbar hyperspektiv-navbar navbar-default navbar-fixed-top" id="nav" role="navigation">
             <div class="navbar-bg transition"></div>
-            <img class="app-store-icon" src="assets/images/appstore.png"></img>
+            <a href="#footer"><img class="app-store-icon" src="assets/images/appstore.png"></img></a>
             <div class="container-fluid">
 
                 <div class="navbar-content transition">
@@ -98,11 +98,27 @@
             </div>
 
             
-            <div class="distort-content">
+            <div class="distort-content container-fluid">
                 <a name="distort"></a>
-                <img src="assets/images/distort_phone.png" class="distort-phone"/>
-                <h1 class="distort-title">Distort </h1>
-                <p class="distort-blurb">Experience and capture distorted reality.</p>
+                <!--<img src="assets/images/distort_phone.png" class="distort-phone"/>-->
+                
+                <div class="row">    
+                    <div class="col-sm-3"></div> 
+                    <div class="col-sm-3">
+                        <div class="distort-phone-section">
+                            <video class="distort-video" autoplay="" loop="" muted>
+                                <source class="distort-phone-2" src="assets/videos/distort.mp4" type="video/mp4">
+                            </video>
+                        </div>
+
+                    </div>
+                    <div class="col-sm-6">
+                        <h1 class="distort-title">Distort </h1><p class="distort-blurb">Experience and capture distorted reality.</p>
+                    </div>
+                </div>
+
+                
+                
             </div>
             
         </div>
@@ -142,12 +158,13 @@
         <div class="footer-section">
             <a name="contact"></a>
             <div class="footer-content">
-                
-                <p class="footer-blurb">Supported on iPhone 5s and up running iOS 9+.</p>
+                <a name="footer"></a>
+                <!--<p class="footer-blurb">Be the first to know when HYPERSPEKTIV drops.</p>-->
                 
                     
                 <div class="footer-main-block">
-                    <img class="footer-app-store" src="assets/images/appstore.png"></img>
+<!--                    <img class="footer-app-store" src="assets/images/appstore.png"></img>-->
+                    <p class="footer-blurb">Be the first to know when HYPERSPEKTIV drops.</p>
                     <form class="form-inline footer-form">
                         <div class="form-group">
                             <label class="sr-only" for="exampleInputEmail3">Email address</label>

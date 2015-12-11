@@ -163,14 +163,29 @@
   height: 100vh; }
 
 .distort-content {
-  width: 750px;
   height: 540px; }
 
 @media (min-width: 768px) {
   .distort-title {
-    margin-left: 375px;
     font-size: 70px;
     padding-top: 200px; } }
+
+.distort-phone-section {
+  background: url(../assets/images/distort_phone.png);
+  background-size: cover;
+  background-position: 50% 50%;
+  width: 299px;
+  height: 570px; }
+  @media (min-width: 768px) {
+    .distort-phone-section {
+      margin-left: -150px; } }
+  @media (min-width: 1025px) {
+    .distort-phone-section {
+      margin-left: 0; } }
+
+.distort-video {
+  margin-left: 34px;
+  margin-top: 83px; }
 
 @media (min-width: 768px) {
   .distort-phone {
@@ -182,15 +197,8 @@
 
 @media (min-width: 768px) {
   .distort-blurb {
-    margin-left: 375px;
     margin-top: 3vh; } }
 
-@media (min-width: 960px) {
-  .distort-content {
-    width: 920px; }
-
-  .distort-title {
-    margin-top: 20vh; } }
 .interact-section {
   background: url(../assets/images/interact_background.jpg);
   background-size: cover;
@@ -244,7 +252,7 @@
   position: relative; }
 
 .footer-main-block {
-  width: 253px;
+  width: 600px;
   height: 110px; }
 
 .footer-blurb {
@@ -256,12 +264,10 @@
   text-align: center;
   width: 100%;
   padding-left: 2vh;
-  padding-right: 2vh;
-  padding-top: 20vh; }
+  padding-right: 2vh; }
   @media (min-width: 768px) {
     .footer-blurb {
-      padding: 0;
-      padding-top: 25vh; } }
+      padding: 0; } }
 
 .footer-app-store {
   height: 70px;
@@ -270,7 +276,9 @@
   display: block; }
 
 .footer-form {
-  padding-top: 10px; }
+  padding-top: 10px;
+  margin: 0 auto;
+  width: 253px; }
 
 .footer-form-email {
   width: 253px !important; }

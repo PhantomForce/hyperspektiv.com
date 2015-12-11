@@ -14,7 +14,6 @@
     @extend .tablet-up;
     @extend .absolute-center;
     
-    width: 750px;
     height: 540px;
 }
 
@@ -26,10 +25,32 @@
     @extend .title-common;
     
     @include tablet-up {
-        margin-left: 375px;
+        //margin-left: 375px;
         font-size: 70px;
         padding-top: 200px;
     }
+}
+
+
+.distort-phone-section {
+    background: url(../assets/images/distort_phone.png) ;
+    background-size: cover;
+    background-position: 50% 50%;
+    width: 299px;
+    height: 570px; 
+    
+    @include tablet-up {
+        margin-left: -150px;   
+    }
+    
+    @include desktop {
+        margin-left: 0;   
+    }
+}
+
+.distort-video {
+    margin-left: 34px;
+    margin-top: 83px;
 }
 
 .distort-phone-mobile {
@@ -55,17 +76,17 @@
     @extend .blurb-common;
     
     @include tablet-up {
-        margin-left: 375px;
+        //margin-left: 375px;
         margin-top: 3vh;
     }
 }
 
 @media (min-width: 960px) {
-    .distort-content {
-        width: 920px;   
-    }
-    
-    .distort-title {
-        margin-top: 20vh;   
-    }
+//    .distort-content {
+//        width: 920px;   
+//    }
+//    
+//    .distort-title {
+//        margin-top: 20vh;   
+//    }
 }

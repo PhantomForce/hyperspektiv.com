@@ -13,7 +13,7 @@
 .footer-main-block {
     @extend .absolute-center;
     
-    width: 253px;
+    width: 600px;
     height: 110px;
 }
 
@@ -29,11 +29,11 @@
     
     padding-left:2vh;
     padding-right: 2vh;
-    padding-top: 20vh;
+    //padding-top: 20vh;
     
     @include tablet-up {
         padding: 0;
-        padding-top: 25vh;
+        //padding-top: 25vh;
     }
 }
 
@@ -46,6 +46,8 @@
 
 .footer-form {
     padding-top: 10px;
+    margin: 0 auto;
+    width: 253px;
 }
 
 .footer-form-email {
