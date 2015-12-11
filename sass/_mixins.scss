@@ -29,7 +29,7 @@
 
 $mobile-portrait-max-width: 540px;
 $tablet-width: 768px;
-$desktop-width: 1024px;
+$desktop-width: 1025px;
 
 @mixin mobile-portrait-up {
     @media (max-width: #{$tablet-width}) {
@@ -96,7 +96,7 @@ $desktop-width: 1024px;
     }
 }
 
-@media (min-width: 1024px) {    
+@media (min-width: 1025px) {    
     .desktop-up {
         display: block !important;   
     }

@@ -13,7 +13,7 @@
 .interact-content {
     @extend .tablet-up;
     @extend .absolute-center;
-    width: 1000px;
+    width: 571px;
     height: 500px;
 }
 
@@ -35,15 +35,6 @@
     font-size: 70px;
     text-align: center;
 }
-
-//.interact-phone-div-mobile {
-//    @extend .absolute-center;
-//    background: url(../assets/images/interact_phone.png) center top no-repeat; 
-//    width: 100%; 
-//    overflow-x: hidden;
-//    overflow-y: hidden;
-//    height: 30vh;
-//}
 
 .interact-phone-mobile {
     @extend .phone-mobile-common;
@@ -71,18 +62,10 @@
 .interact-blurb {
     @extend .blurb-common;
     
-
     margin: 0 auto;
     font-size: 27px;
     letter-spacing: -1.5px;
     line-height: 30px;
     text-align: center;
     margin-top: 4vh;
-    width: 750px;
-}
-
-@media (min-width: 1024px) {
-    .interact-blurb {
-        width: 1000px;   
-    }
 }

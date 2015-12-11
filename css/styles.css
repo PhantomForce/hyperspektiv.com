@@ -16,7 +16,7 @@
 
   .desktop-up {
     display: none !important; } }
-@media (min-width: 1024px) {
+@media (min-width: 1025px) {
   .desktop-up {
     display: block !important; } }
 .splash-section {
@@ -25,7 +25,7 @@
   background-size: cover;
   background-position: 50% 50%;
   height: 100vh; }
-  @media (min-width: 1024px) {
+  @media (min-width: 1025px) {
     .splash-section {
       background: none; } }
 
@@ -131,17 +131,16 @@
 
 .create-content {
   width: 750px;
-  height: 540px;
-  width: 920px; }
+  height: 540px; }
 
 .create-title {
   text-align: right;
   font-size: 70px;
-  width: 400px;
+  width: 200px;
   float: left; }
   @media (min-width: 768px) {
     .create-title {
-      width: 550px;
+      width: 400px;
       padding-top: 150px; } }
 
 .create-phone {
@@ -155,9 +154,6 @@
   width: 400px;
   float: left;
   margin-top: 2vh; }
-  @media (min-width: 768px) {
-    .create-blurb {
-      width: 550px; } }
 
 .distort-section {
   position: relative;
@@ -203,7 +199,7 @@
   position: relative; }
 
 .interact-content {
-  width: 1000px;
+  width: 571px;
   height: 500px; }
 
 @media (max-width: 768px) {
@@ -238,12 +234,8 @@
   letter-spacing: -1.5px;
   line-height: 30px;
   text-align: center;
-  margin-top: 4vh;
-  width: 750px; }
+  margin-top: 4vh; }
 
-@media (min-width: 1024px) {
-  .interact-blurb {
-    width: 1000px; } }
 .footer-section {
   background: url(../assets/images/footer_background.jpg);
   background-size: cover;

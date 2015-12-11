@@ -16,8 +16,6 @@
     
     width: 750px;
     height: 540px;
-    
-    width: 920px;  
 }
 
 .create-title-mobile {
@@ -29,11 +27,11 @@
     
     text-align: right;
     font-size: 70px;
-    width: 400px;
+    width: 200px;
     float: left;
     
     @include tablet-up {
-        width: 550px;
+        width:400px;
         padding-top: 150px;   
     }
 }
@@ -62,7 +60,4 @@
     float:left;
     margin-top: 2vh;
     
-    @include tablet-up {
-        width: 550px;   
-    }
 }
