@@ -40,7 +40,7 @@ $large-desktop-width: 1160px;
 }
 
 @mixin mobile-landscape {
-    @media (min-width: #{$mobile-portrait-max-width}) and (max-width: #{$tablet-width}) {
+    @media (min-width: #{$mobile-portrait-max-width}) {
         @content;    
     }
 }

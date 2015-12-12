@@ -34,14 +34,14 @@
   width: 180px;
   margin: 0 auto;
   display: block; }
-  @media (min-width: 540px) and (max-width: 768px) {
+  @media (min-width: 540px) {
     .splash-app-store-mobile {
       width: 120px;
       padding-top: 2px; } }
 
 .splash-main-block-mobile {
   height: 350px; }
-  @media (min-width: 540px) and (max-width: 768px) {
+  @media (min-width: 540px) {
     .splash-main-block-mobile {
       height: 230px; } }
 
@@ -57,7 +57,7 @@
 
 .splash-icon {
   height: 230px; }
-  @media (min-width: 540px) and (max-width: 768px) {
+  @media (min-width: 540px) {
     .splash-icon {
       height: 150px; } }
   @media (min-width: 768px) {
@@ -219,7 +219,7 @@
 @media (max-width: 768px) {
   .interact-title-mobile {
     padding-top: 24vh !important; } }
-@media (min-width: 540px) and (max-width: 768px) {
+@media (min-width: 540px) {
   .interact-title-mobile {
     padding-top: 22vh !important; } }
 
@@ -249,7 +249,7 @@
 @media (max-width: 768px) {
   .interact-blurb-mobile {
     bottom: 25vh !important; } }
-@media (min-width: 540px) and (max-width: 768px) {
+@media (min-width: 540px) {
   .interact-blurb-mobile {
     bottom: 23vh !important; } }
 
@@ -269,52 +269,39 @@
   position: relative; }
 
 .footer-main-block {
-  width: 600px;
-  height: 110px; }
+  width: 100%;
+  height: 164px; }
+  @media (min-width: 540px) {
+    .footer-main-block {
+      width: 600px;
+      height: 110px; } }
+  @media (min-width: 768px) {
+    .footer-main-block {
+      width: 700px; } }
 
 .footer-blurb {
   height: 40px;
-  font-size: 25px;
+  font-size: 24px;
   font-family: "din-next";
-  letter-spacing: 1px;
+  letter-spacing: 0px;
   line-height: 26px;
   text-align: center;
   width: 100%;
-  padding-left: 2vh;
-  padding-right: 2vh; }
+  text-transform: uppercase; }
   @media (min-width: 768px) {
     .footer-blurb {
-      padding: 0; } }
+      padding: 0;
+      font-size: 30px; } }
+
+.footer-emphasis {
+  color: #1af096;
+  font-weight: bold; }
 
 .footer-app-store {
   height: 70px;
   margin: 0 auto;
   margin-bottom: 10px;
   display: block; }
-
-.footer-form {
-  padding-top: 10px;
-  margin: 0 auto;
-  width: 253px; }
-
-.footer-form-email {
-  width: 253px !important; }
-  @media (min-width: 1025px) {
-    .footer-form-email {
-      width: auto !important; } }
-
-.footer-signup {
-  margin: 0 auto;
-  width: 100px;
-  display: block; }
-  @media (min-width: 768px) {
-    .footer-signup {
-      margin-top: 20px; } }
-  @media (min-width: 1025px) {
-    .footer-signup {
-      width: auto;
-      margin: auto;
-      display: inline; } }
 
 .footer-copyright {
   position: absolute;
@@ -409,6 +396,55 @@
   right: 0;
   z-index: 100; }
 
+.email-form-group {
+  margin: 0 auto !important;
+  display: block; }
+
+.email-form {
+  padding-top: 10px;
+  margin: 0 auto;
+  width: 320px; }
+  @media (min-width: 540px) {
+    .email-form {
+      width: 440px; } }
+
+.email-input {
+  font-family: "aktiv-grotesk";
+  border-radius: 0;
+  height: 45px;
+  width: 265px !important;
+  font-size: 18px;
+  margin: 0 auto;
+  display: block !important; }
+  @media (min-width: 1025px) {
+    .email-input {
+      display: inline !important; } }
+
+.email-button {
+  margin: 0 auto;
+  width: 265px !important;
+  height: 45px;
+  border-radius: 0;
+  background: transparent;
+  border-color: #C59285;
+  border-width: 3px;
+  color: #C59285;
+  font-weight: bold;
+  font-family: "aktiv-grotesk";
+  text-transform: uppercase;
+  font-size: 18px;
+  display: block;
+  margin-top: 10px; }
+  @media (min-width: 768px) {
+    .email-button {
+      margin-top: 20px; } }
+  @media (min-width: 1025px) {
+    .email-button {
+      margin-top: 0;
+      margin-left: 10px;
+      display: inline;
+      width: 155px !important; } }
+
 .title-common, .create-title, .distort-title, .interact-title, .title-mobile-common, .create-title-mobile, .distort-title-mobile, .interact-title-mobile {
   font-weight: bold;
   font-family: "aktiv-grotesk";
@@ -420,7 +456,7 @@
     text-align: center;
     padding-top: 3vh;
     font-size: 50px; } }
-@media (min-width: 540px) and (max-width: 768px) {
+@media (min-width: 540px) {
   .title-mobile-common, .create-title-mobile, .distort-title-mobile, .interact-title-mobile {
     padding-top: 2vh;
     font-size: 40px; } }
@@ -449,7 +485,7 @@
     letter-spacing: 0;
     font-size: 20px;
     text-align: center; } }
-@media (min-width: 540px) and (max-width: 768px) {
+@media (min-width: 540px) {
   .blurb-mobile-common, .create-blurb-mobile, .distort-blurb-mobile, .interact-blurb-mobile {
     bottom: 2vh;
     margin-left: -320px;
