@@ -83,6 +83,10 @@ $large-desktop-width: 1160px;
 
 
 @media (max-width: 767px) {
+    .mobile-to-desktop {
+        display: block !important;   
+    }
+    
     .mobile-only {
         display: block !important;   
     }
@@ -97,6 +101,10 @@ $large-desktop-width: 1160px;
 }
 
 @media (min-width: 768px) {
+    .mobile-to-desktop {
+        display: block !important;   
+    }
+    
     .mobile-only {
         display: none !important;   
     }
@@ -111,6 +119,10 @@ $large-desktop-width: 1160px;
 }
 
 @media (min-width: 1025px) {    
+    .mobile-to-desktop {
+        display: none !important;   
+    }
+    
     .desktop-up {
         display: block !important;   
     }

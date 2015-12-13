@@ -61,9 +61,18 @@
     display: block;
 }
 
+.footer-social {
+    @extend .mobile-to-desktop;
+    
+    left: 50%;
+    margin-left: -130px;
+    position: absolute;
+    bottom: 64px;
+}
+
 .footer-copyright {
     position: absolute;
-    bottom: 2vh;
+    bottom: 16px;
     font-size: 12px;
     font-family: "din-next";
     line-height: 26px;
