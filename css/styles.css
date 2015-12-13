@@ -561,20 +561,29 @@
 #mc_embed_signup div.mce_inline_error {
   background-color: transparent !important;
   margin: 0 auto !important;
-  margin-top: 10px !important;
-  width: 275px; }
+  margin-top: 16px !important;
+  width: 270px; }
   @media (min-width: 1025px) {
     #mc_embed_signup div.mce_inline_error {
       width: 350px; } }
 
 #mc_embed_signup #mce-success-response {
-  color: white; }
+  color: white;
+  width: 270px;
+  margin: 0 auto !important; }
+  @media (min-width: 1025px) {
+    #mc_embed_signup #mce-success-response {
+      width: 350px; } }
 
 #mc_embed_signup div.response {
-  margin: 0 auto;
-  font-size: 20px;
-  width: 350px;
+  float: none;
+  padding: 0;
+  font-size: 16px;
   margin-top: -10px; }
+  @media (min-width: 1025px) {
+    #mc_embed_signup div.response {
+      font-size: 20px;
+      width: 350px; } }
 
 body {
   color: white;
