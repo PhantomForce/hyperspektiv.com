@@ -1,7 +1,30 @@
 #mc_embed_signup{
     background:rgba(0,0,0,0); 
     clear:left; 
-    font:14px "aktiv-grotesk",sans-serif; 
+    font:16px "din-next",sans-serif; 
 }
 /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
    We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+
+#mc_embed_signup div.mce_inline_error {
+    background-color:rgba(0,0,0,0) !important; 
+    margin: 0 auto !important;
+    margin-top: 10px !important;
+    
+    width: 275px;
+    
+    @include desktop-up {
+        width: 350px;
+    }
+}
+
+#mc_embed_signup #mce-success-response {
+    color: white;
+}
+
+#mc_embed_signup div.response {
+    margin: 0 auto;
+    font-size: 20px;
+    width: 350px;
+    margin-top: -10px;
+}
