@@ -3788,6 +3788,22 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/sass\/_mailchimp.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/sass\/_mailchimp.scss",
+		"outputAbbreviatedPath": "\/css\/_mailchimp.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
 	"\/sass\/_mixins.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
