@@ -79,13 +79,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/images\/FACEBOOK.png": {
+	"\/assets\/images\/facebook.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 581,
-		"inputAbbreviatedPath": "\/assets\/images\/FACEBOOK.png",
-		"outputAbbreviatedPath": "\/assets\/images\/FACEBOOK.png",
+		"inputAbbreviatedPath": "\/assets\/images\/facebook.png",
+		"outputAbbreviatedPath": "\/assets\/images\/facebook.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -134,24 +134,24 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/images\/HYPERSPEKTIV.png": {
+	"\/assets\/images\/hyperspektiv.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 2348,
-		"inputAbbreviatedPath": "\/assets\/images\/HYPERSPEKTIV.png",
-		"outputAbbreviatedPath": "\/assets\/images\/HYPERSPEKTIV.png",
+		"inputAbbreviatedPath": "\/assets\/images\/hyperspektiv.png",
+		"outputAbbreviatedPath": "\/assets\/images\/hyperspektiv.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/images\/INSTAGRAM.png": {
+	"\/assets\/images\/instagram.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 653,
-		"inputAbbreviatedPath": "\/assets\/images\/INSTAGRAM.png",
-		"outputAbbreviatedPath": "\/assets\/images\/INSTAGRAM.png",
+		"inputAbbreviatedPath": "\/assets\/images\/instagram.png",
+		"outputAbbreviatedPath": "\/assets\/images\/instagram.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -222,35 +222,35 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/images\/TUMBLR.png": {
+	"\/assets\/images\/tumblr.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 630,
-		"inputAbbreviatedPath": "\/assets\/images\/TUMBLR.png",
-		"outputAbbreviatedPath": "\/assets\/images\/TUMBLR.png",
+		"inputAbbreviatedPath": "\/assets\/images\/tumblr.png",
+		"outputAbbreviatedPath": "\/assets\/images\/tumblr.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/images\/TWITTER.png": {
+	"\/assets\/images\/twitter.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 658,
-		"inputAbbreviatedPath": "\/assets\/images\/TWITTER.png",
-		"outputAbbreviatedPath": "\/assets\/images\/TWITTER.png",
+		"inputAbbreviatedPath": "\/assets\/images\/twitter.png",
+		"outputAbbreviatedPath": "\/assets\/images\/twitter.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/images\/YOUTUBE.png": {
+	"\/assets\/images\/youtube.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 727,
-		"inputAbbreviatedPath": "\/assets\/images\/YOUTUBE.png",
-		"outputAbbreviatedPath": "\/assets\/images\/YOUTUBE.png",
+		"inputAbbreviatedPath": "\/assets\/images\/youtube.png",
+		"outputAbbreviatedPath": "\/assets\/images\/youtube.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
