@@ -28,9 +28,17 @@
 
   .desktop-up, .navbar-social-list {
     display: block !important; } }
+.absolute-center, .splash-main-block-mobile, .splash-icon, .create-content, .distort-content, .interact-content, .footer-main-block, .navbar-list, .phone-mobile-common, .create-phone-mobile, .distort-phone-mobile, .interact-phone-mobile, .phone-section-common, .create-phone-section, .distort-phone-section {
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0; }
+
 .splash-section {
   position: relative;
-  background: url(../assets/images/splash_background.jpg);
+  background: url(../assets/gifs/hypersplash2.gif);
   background-size: cover;
   background-position: 50% 50%;
   height: 100vh; }
@@ -544,12 +552,45 @@
 .phone-section-common, .create-phone-section, .distort-phone-section {
   background-size: cover;
   background-position: 50% 50%;
-  width: 299px;
-  height: 570px; }
+  width: 200px;
+  height: 381px; }
+  @media (min-width: 375px) {
+    .phone-section-common, .create-phone-section, .distort-phone-section {
+      width: 250px;
+      height: 476px; } }
+  @media (min-width: 414px) {
+    .phone-section-common, .create-phone-section, .distort-phone-section {
+      width: 300px;
+      height: 572px; } }
+  @media (min-width: 768px) {
+    .phone-section-common, .create-phone-section, .distort-phone-section {
+      position: relative;
+      width: 299px;
+      height: 570px; } }
 
 .phone-video-common, .create-video, .distort-video {
-  margin-left: 34px;
-  margin-top: 83px; }
+  width: 153px;
+  height: 273px;
+  margin-left: 23px;
+  margin-top: 54px; }
+  @media (min-width: 375px) {
+    .phone-video-common, .create-video, .distort-video {
+      margin-left: 30px;
+      margin-top: 70px;
+      width: 191px;
+      height: 341px; } }
+  @media (min-width: 414px) {
+    .phone-video-common, .create-video, .distort-video {
+      margin-left: 36px;
+      margin-top: 84px;
+      width: 233px;
+      height: 407px; } }
+  @media (min-width: 768px) {
+    .phone-video-common, .create-video, .distort-video {
+      width: auto;
+      height: auto;
+      margin-left: 34px;
+      margin-top: 83px; } }
 
 #mc_embed_signup {
   background: transparent;
@@ -611,11 +652,3 @@ a:visited {
 a:active {
   color: #F4B6A4;
   text-decoration: none; }
-
-.absolute-center, .splash-main-block-mobile, .splash-icon, .create-content, .distort-content, .interact-content, .footer-main-block, .navbar-list, .phone-mobile-common, .create-phone-mobile, .distort-phone-mobile, .interact-phone-mobile {
-  margin: auto;
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0; }

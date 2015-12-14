@@ -27,6 +27,8 @@
 	}	
 }
 
+$iphone6-width: 375px;
+$iphone6plus-width: 414px;
 $mobile-portrait-max-width: 540px;
 $tablet-width: 768px;
 $small-desktop-width: 960px;
@@ -36,6 +38,18 @@ $large-desktop-width: 1160px;
 @mixin mobile-portrait-up {
     @media (max-width: #{$tablet-width}) {
         @content;    
+    }
+}
+
+@mixin iphone6-portrait-up {
+    @media (min-width: $iphone6-width) {
+        @content;
+    }
+}
+
+@mixin iphone6plus-portrait-up {
+    @media (min-width: $iphone6plus-width) {
+        @content;
     }
 }
 
@@ -126,4 +140,10 @@ $large-desktop-width: 1160px;
     .desktop-up {
         display: block !important;   
     }
+}
+
+.absolute-center {
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
 }
