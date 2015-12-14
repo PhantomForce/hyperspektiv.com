@@ -6,7 +6,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 4681,
+		"initialSize": 15950,
 		"inputAbbreviatedPath": "\/assets\/images\/appstore.png",
 		"outputAbbreviatedPath": "\/assets\/images\/appstore.png",
 		"outputPathIsOutsideProject": 0,
@@ -123,13 +123,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/images\/H.png": {
+	"\/assets\/images\/h.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 3237,
-		"inputAbbreviatedPath": "\/assets\/images\/H.png",
-		"outputAbbreviatedPath": "\/assets\/images\/H.png",
+		"initialSize": 6955,
+		"inputAbbreviatedPath": "\/assets\/images\/h.png",
+		"outputAbbreviatedPath": "\/assets\/images\/h.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -138,7 +138,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 2348,
+		"initialSize": 4152,
 		"inputAbbreviatedPath": "\/assets\/images\/hyperspektiv.png",
 		"outputAbbreviatedPath": "\/assets\/images\/hyperspektiv.png",
 		"outputPathIsOutsideProject": 0,
@@ -3931,6 +3931,105 @@
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
+		},
+	"\/sources\/2x website assets\/APP STORE.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 15950,
+		"inputAbbreviatedPath": "\/sources\/2x website assets\/APP STORE.png",
+		"outputAbbreviatedPath": "\/sources\/2x website assets\/APP STORE.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/sources\/2x website assets\/facebook.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1041,
+		"inputAbbreviatedPath": "\/sources\/2x website assets\/facebook.png",
+		"outputAbbreviatedPath": "\/sources\/2x website assets\/facebook.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/sources\/2x website assets\/H LOGO.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1399,
+		"inputAbbreviatedPath": "\/sources\/2x website assets\/H LOGO.png",
+		"outputAbbreviatedPath": "\/sources\/2x website assets\/H LOGO.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/sources\/2x website assets\/H.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6955,
+		"inputAbbreviatedPath": "\/sources\/2x website assets\/H.png",
+		"outputAbbreviatedPath": "\/sources\/2x website assets\/H.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/sources\/2x website assets\/HYPERSPEKTIV.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4152,
+		"inputAbbreviatedPath": "\/sources\/2x website assets\/HYPERSPEKTIV.png",
+		"outputAbbreviatedPath": "\/sources\/2x website assets\/HYPERSPEKTIV.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/sources\/2x website assets\/instagram.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1312,
+		"inputAbbreviatedPath": "\/sources\/2x website assets\/instagram.png",
+		"outputAbbreviatedPath": "\/sources\/2x website assets\/instagram.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/sources\/2x website assets\/tumblr.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1096,
+		"inputAbbreviatedPath": "\/sources\/2x website assets\/tumblr.png",
+		"outputAbbreviatedPath": "\/sources\/2x website assets\/tumblr.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/sources\/2x website assets\/twitter.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1280,
+		"inputAbbreviatedPath": "\/sources\/2x website assets\/twitter.png",
+		"outputAbbreviatedPath": "\/sources\/2x website assets\/twitter.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/sources\/2x website assets\/youtube.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3416,
+		"inputAbbreviatedPath": "\/sources\/2x website assets\/youtube.png",
+		"outputAbbreviatedPath": "\/sources\/2x website assets\/youtube.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/sources\/MOBILE MOCKUPS\/MOBILE SITE 1.png": {
 		"fileType": 32768,

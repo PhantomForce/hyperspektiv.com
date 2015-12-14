@@ -53,11 +53,13 @@
 
 .splash-title-mobile {
     @extend .splash-title-common;
+    width: 193px;
 }
 
 .splash-title {
     @extend .splash-title-common;
     padding-top: 12vh;
+    width: 193px;
 }
 
 .splash-icon {

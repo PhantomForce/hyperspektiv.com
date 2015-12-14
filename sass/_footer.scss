@@ -65,9 +65,14 @@
     @extend .mobile-to-desktop;
     
     left: 50%;
-    margin-left: -130px;
+    margin-left: -175px;
     position: absolute;
     bottom: 64px;
+    width: 350px;
+}
+
+.footer-social img {
+    width: 43px;
 }
 
 .footer-copyright {

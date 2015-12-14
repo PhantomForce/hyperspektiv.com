@@ -69,8 +69,12 @@
     .splash-title-common, .splash-title-mobile, .splash-title {
       padding-top: 60px; } }
 
+.splash-title-mobile {
+  width: 193px; }
+
 .splash-title {
-  padding-top: 12vh; }
+  padding-top: 12vh;
+  width: 193px; }
 
 .splash-icon {
   height: 230px; }
@@ -322,9 +326,13 @@
 
 .footer-social {
   left: 50%;
-  margin-left: -130px;
+  margin-left: -175px;
   position: absolute;
-  bottom: 64px; }
+  bottom: 64px;
+  width: 350px; }
+
+.footer-social img {
+  width: 43px; }
 
 .footer-copyright {
   position: absolute;
@@ -403,6 +411,9 @@
   position: absolute;
   right: 30px;
   top: 50px; }
+
+.navbar-social-list img {
+  width: 23px; }
 
 @font-face {
   font-family: din-next;
@@ -499,9 +510,6 @@
 .social-list li {
   display: inline;
   margin-right: 10px; }
-
-.social-list img {
-  width: 23px; }
 
 .title-common, .create-title, .distort-title, .interact-title, .title-mobile-common, .create-title-mobile, .distort-title-mobile, .interact-title-mobile {
   font-weight: bold;
