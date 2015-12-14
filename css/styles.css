@@ -392,7 +392,6 @@
 .navbar-list {
   height: 73px;
   list-style-type: none;
-  margin: 0 auto;
   padding: 0;
   width: 500px; }
   @media (min-width: 1025px) {
