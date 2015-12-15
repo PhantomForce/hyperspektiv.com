@@ -2,10 +2,10 @@
   .mobile-to-desktop, .footer-social {
     display: block !important; }
 
-  .mobile-only, .content-mobile-common, .splash-content-mobile, .create-content-mobile, .distort-content-mobile, .interact-content-mobile {
+  .mobile-only, .meta-cta-mobile-image, .content-mobile-common, .splash-content-mobile, .create-content-mobile, .distort-content-mobile, .interact-content-mobile {
     display: block !important; }
 
-  .tablet-up, .splash-content, .create-content, .distort-content, .interact-content, #sign-up {
+  .tablet-up, .splash-content, .create-content, .distort-content, .interact-content, .meta-cta-image, #sign-up {
     display: none !important; }
 
   .desktop-up, .navbar-social-list {
@@ -14,10 +14,10 @@
   .mobile-to-desktop, .footer-social {
     display: block !important; }
 
-  .mobile-only, .content-mobile-common, .splash-content-mobile, .create-content-mobile, .distort-content-mobile, .interact-content-mobile {
+  .mobile-only, .meta-cta-mobile-image, .content-mobile-common, .splash-content-mobile, .create-content-mobile, .distort-content-mobile, .interact-content-mobile {
     display: none !important; }
 
-  .tablet-up, .splash-content, .create-content, .distort-content, .interact-content, #sign-up {
+  .tablet-up, .splash-content, .create-content, .distort-content, .interact-content, .meta-cta-image, #sign-up {
     display: block !important; }
 
   .desktop-up, .navbar-social-list {
@@ -455,6 +455,11 @@
   bottom: 0;
   width: 100%;
   z-index: 1; }
+  @media (min-width: 768px) {
+    .meta-cta {
+      width: 200px;
+      bottom: 16px;
+      right: 16px; } }
 
 .meta-cta img {
   width: 100%; }

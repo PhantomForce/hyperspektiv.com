@@ -4,10 +4,24 @@
     bottom: 0;
     width: 100%;
     z-index: 1;
+    
+    @include tablet-up {
+        width: 200px;
+        bottom: 16px;
+        right: 16px;
+    }
 }
 
 .meta-cta img {
     width: 100%;
+}
+
+.meta-cta-mobile-image {
+    @extend .mobile-only;
+}
+
+.meta-cta-image {
+    @extend .tablet-up;
 }
 
 .meta-cta-hide {

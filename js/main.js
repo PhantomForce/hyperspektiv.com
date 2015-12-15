@@ -55,3 +55,12 @@ $(function () {
         $('#sign-up').attr("src", "../assets/images/sign_up.png");
     });
 });
+
+$(function () {
+    $('#meta-cta').mouseover(function() {
+        $('#meta-cta').attr("src", "../assets/images/meta_cta_hover.png");
+    });
+    $('#meta-cta').mouseout(function() {
+        $('#meta-cta').attr("src", "../assets/images/meta_cta.png");
+    });
+});
