@@ -266,6 +266,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/images\/splash_poster.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 99565,
+		"inputAbbreviatedPath": "\/assets\/images\/splash_poster.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/splash_poster.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/images\/TUMBLR.png": {
 		"fileType": 32768,
 		"ignore": 0,
