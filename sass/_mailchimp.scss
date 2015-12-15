@@ -42,12 +42,8 @@
     margin-top: -10px;
 }
 
-.first-cta-field-group {
-    padding-bottom: 0;
-    
-    @include tablet-up {
-        width: 420px !important;   
-    }
+#mce-responses {
+    padding-top: 16px !important;
 }
 
 .mc-field-group {

@@ -687,11 +687,8 @@
       font-size: 20px;
       width: 350px; } }
 
-.first-cta-field-group {
-  padding-bottom: 0; }
-  @media (min-width: 768px) {
-    .first-cta-field-group {
-      width: 420px !important; } }
+#mce-responses {
+  padding-top: 16px !important; }
 
 @media (min-width: 768px) {
   .mc-field-group {
