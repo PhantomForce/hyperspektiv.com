@@ -1,14 +1,17 @@
-.first-cta-section {
-    background-color: #212121;
-    
-    padding-top: 30px;
-    padding-bottom: 15px;
-    
-    @include tablet-up {
-        padding-top: 60px;
-        padding-bottom: 40px;
-    }
+.meta-cta {
+    @extend .transition; 
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 1;
+}
 
+.meta-cta img {
+    width: 100%;
+}
+
+.meta-cta-hide {
+    opacity: 0;
 }
 
 .app-store-icon {

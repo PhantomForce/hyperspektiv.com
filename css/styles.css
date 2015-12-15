@@ -407,7 +407,7 @@
 .navbar-content-show {
   opacity: 1.0; }
 
-.transition {
+.transition, .meta-cta {
   -webkit-transition: all 0.6s ease-in-out;
   -moz-transition: all 0.6s ease-in-out;
   -o-transition: all 0.6s ease-in-out;
@@ -450,14 +450,17 @@
 @font-face {
   font-family: din-next;
   src: url(../fonts/DINNextLTPro-Light.otf); }
-.first-cta-section {
-  background-color: #212121;
-  padding-top: 30px;
-  padding-bottom: 15px; }
-  @media (min-width: 768px) {
-    .first-cta-section {
-      padding-top: 60px;
-      padding-bottom: 40px; } }
+.meta-cta {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 1; }
+
+.meta-cta img {
+  width: 100%; }
+
+.meta-cta-hide {
+  opacity: 0; }
 
 .app-store-icon {
   height: 40px;

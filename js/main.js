@@ -1,11 +1,18 @@
 $(window).scroll(function() {
-    if ($(window).scrollTop() > 500 ){
+    if ($(window).scrollTop() > $(window).height() ){
  		$('.navbar-bg').addClass('navbar-bg-show');
         $('.navbar-content').addClass('navbar-content-show');
     } else {
         $('.navbar-bg').removeClass('navbar-bg-show');
         $('.navbar-content').removeClass('navbar-content-show');
-    };   	
+    }  
+    
+    if ($(window).scrollTop() > $(window).height() * 3.5 ){
+        console.log("unie");
+ 		$('.meta-cta').addClass('meta-cta-hide');
+    } else {
+        $('.meta-cta').removeClass('meta-cta-hide');
+    }  
 });
 
 $('.scroll').on('click', function(e){		

@@ -35,6 +35,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/images\/cta_mobile.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 22393,
+		"inputAbbreviatedPath": "\/assets\/images\/cta_mobile.png",
+		"outputAbbreviatedPath": "\/assets\/images\/cta_mobile.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/images\/distort_background.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -244,13 +255,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/images\/TWITTER.png": {
+	"\/assets\/images\/twitter.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 658,
-		"inputAbbreviatedPath": "\/assets\/images\/TWITTER.png",
-		"outputAbbreviatedPath": "\/assets\/images\/TWITTER.png",
+		"inputAbbreviatedPath": "\/assets\/images\/twitter.png",
+		"outputAbbreviatedPath": "\/assets\/images\/twitter.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -4064,6 +4075,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/sources\/MOBILE MOCKUPS\/MOBILE SITE 1-1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 639903,
+		"inputAbbreviatedPath": "\/sources\/MOBILE MOCKUPS\/MOBILE SITE 1-1.png",
+		"outputAbbreviatedPath": "\/sources\/MOBILE MOCKUPS\/MOBILE SITE 1-1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/sources\/MOBILE MOCKUPS\/MOBILE SITE 1.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -4181,6 +4203,17 @@
 		"initialSize": 244513,
 		"inputAbbreviatedPath": "\/sources\/MOCKUPS\/CTA-1.jpg",
 		"outputAbbreviatedPath": "\/sources\/MOCKUPS\/CTA-1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/sources\/MOCKUPS\/CTA-3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 186414,
+		"inputAbbreviatedPath": "\/sources\/MOCKUPS\/CTA-3.jpg",
+		"outputAbbreviatedPath": "\/sources\/MOCKUPS\/CTA-3.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
