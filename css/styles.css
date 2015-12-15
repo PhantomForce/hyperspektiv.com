@@ -450,6 +450,11 @@
 @font-face {
   font-family: din-next;
   src: url(../fonts/DINNextLTPro-Light.otf); }
+.first-cta-section {
+  background-color: #212121;
+  padding-top: 30px;
+  padding-bottom: 30px; }
+
 .app-store-icon {
   height: 40px;
   margin-top: 40px;
@@ -665,6 +670,22 @@
     #mc_embed_signup div.response {
       font-size: 20px;
       width: 350px; } }
+
+.first-cta-field-group {
+  padding-bottom: 0; }
+  @media (min-width: 768px) {
+    .first-cta-field-group {
+      width: 420px !important; } }
+
+.mc-field-group {
+  padding-bottom: 0 !important; }
+  @media (min-width: 768px) {
+    .mc-field-group {
+      width: 420px !important; } }
+
+#mc_embed_signup form {
+  padding: 0 !important;
+  padding-top: 10px !important; }
 
 body {
   color: white;

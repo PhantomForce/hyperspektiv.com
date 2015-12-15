@@ -4031,6 +4031,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/sources\/MOBILE MOCKUPS\/CTA-1-mobile.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 212992,
+		"inputAbbreviatedPath": "\/sources\/MOBILE MOCKUPS\/CTA-1-mobile.jpg",
+		"outputAbbreviatedPath": "\/sources\/MOBILE MOCKUPS\/CTA-1-mobile.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/sources\/MOBILE MOCKUPS\/mobile cta.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 457068,
+		"inputAbbreviatedPath": "\/sources\/MOBILE MOCKUPS\/mobile cta.jpg",
+		"outputAbbreviatedPath": "\/sources\/MOBILE MOCKUPS\/mobile cta.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/sources\/MOBILE MOCKUPS\/MOBILE SITE 1.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -4141,6 +4163,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/sources\/MOCKUPS\/CTA-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 244513,
+		"inputAbbreviatedPath": "\/sources\/MOCKUPS\/CTA-1.jpg",
+		"outputAbbreviatedPath": "\/sources\/MOCKUPS\/CTA-1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/sources\/MOCKUPS\/desktop cta.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -4148,17 +4181,6 @@
 		"initialSize": 572132,
 		"inputAbbreviatedPath": "\/sources\/MOCKUPS\/desktop cta.jpg",
 		"outputAbbreviatedPath": "\/sources\/MOCKUPS\/desktop cta.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/sources\/MOCKUPS\/mobile cta.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 457068,
-		"inputAbbreviatedPath": "\/sources\/MOCKUPS\/mobile cta.jpg",
-		"outputAbbreviatedPath": "\/sources\/MOCKUPS\/mobile cta.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

@@ -41,3 +41,24 @@
     
     margin-top: -10px;
 }
+
+.first-cta-field-group {
+    padding-bottom: 0;
+    
+    @include tablet-up {
+        width: 420px !important;   
+    }
+}
+
+.mc-field-group {
+    padding-bottom: 0 !important;
+    
+    @include tablet-up {
+        width: 420px !important;   
+    }
+}
+
+#mc_embed_signup form {
+    padding: 0 !important;
+    padding-top: 10px !important;
+}
