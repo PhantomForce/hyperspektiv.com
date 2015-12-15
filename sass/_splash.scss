@@ -78,7 +78,11 @@
 
 .distorted-reality-common {
     position: absolute;
-    bottom: 2vh;
+    bottom: 4vh;
+    @include desktop-up {
+        bottom: 2vh;
+    }
+    
     left:50%;
     
 }
@@ -114,7 +118,7 @@
 .splash-arrow {
     display: block;
     margin: 0 auto;
-    margin-top: 2vh;
+    margin-top: 1vh;
 }
 
 #vid {

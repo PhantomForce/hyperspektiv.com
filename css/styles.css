@@ -87,8 +87,11 @@
 
 .distorted-reality-common, .distorted-reality-mobile, .distorted-reality {
   position: absolute;
-  bottom: 2vh;
+  bottom: 4vh;
   left: 50%; }
+  @media (min-width: 1025px) {
+    .distorted-reality-common, .distorted-reality-mobile, .distorted-reality {
+      bottom: 2vh; } }
 
 .distorted-reality-mobile {
   bottom: 0vh;
@@ -111,7 +114,7 @@
 .splash-arrow {
   display: block;
   margin: 0 auto;
-  margin-top: 2vh; }
+  margin-top: 1vh; }
 
 #vid {
   position: absolute;
