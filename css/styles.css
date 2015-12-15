@@ -28,7 +28,7 @@
 
   .desktop-up, .navbar-social-list {
     display: block !important; } }
-.absolute-center, .splash-main-block-mobile, .splash-icon, .create-content, .distort-content, .interact-content, .footer-main-block, .navbar-list, .phone-mobile-common, .create-phone-mobile, .distort-phone-mobile, .interact-phone-mobile, .phone-section-common, .create-phone-section, .distort-phone-section {
+.absolute-center, .splash-main-block-mobile, .splash-icon, .create-content, .distort-content, .interact-content, .interact-phone-section, .footer-main-block, .navbar-list, .phone-mobile-common, .create-phone-mobile, .distort-phone-mobile, .interact-phone-mobile, .phone-section-common, .create-phone-section, .distort-phone-section {
   margin: auto;
   position: absolute;
   top: 0;
@@ -144,7 +144,7 @@
   transition: 1s opacity; }
 
 .create-section {
-  background: url(../assets/images/create_background.jpg);
+  background-image: url(../assets/images/create_background.jpg);
   background-size: cover;
   background-position: 50% 50%;
   height: 100vh;
@@ -206,7 +206,7 @@
     padding-top: 200px; } }
 
 .distort-phone-section {
-  background: url(../assets/images/distort_phone.png); }
+  background-image: url(../assets/images/distort_phone.png); }
   @media (min-width: 768px) {
     .distort-phone-section {
       margin-left: -150px; } }
@@ -257,15 +257,48 @@
   margin-top: 4vh; }
 
 .interact-phone-section {
+  background-image: url(../assets/images/interact_phone.png);
   background-size: cover;
   background-position: 50% 50%;
-  width: 570px;
-  height: 299px;
-  background: url(../assets/images/interact_phone.png); }
+  width: 315px;
+  height: 164px; }
+  @media (min-width: 375px) {
+    .interact-phone-section {
+      width: 370px;
+      height: 193px; } }
+  @media (min-width: 414px) {
+    .interact-phone-section {
+      width: 409px;
+      height: 217px; } }
+  @media (min-width: 768px) {
+    .interact-phone-section {
+      position: relative;
+      width: 570px;
+      height: 299px; } }
 
 .interact-video {
-  margin-top: 34px;
-  margin-left: 83px; }
+  margin-left: 46px;
+  margin-top: 19px;
+  width: 226px;
+  height: 128px; }
+  @media (min-width: 375px) {
+    .interact-video {
+      margin-left: 53px;
+      margin-top: 22px;
+      width: 264px;
+      height: 153px; } }
+  @media (min-width: 414px) {
+    .interact-video {
+      margin-left: 59x;
+      margin-top: 24px;
+      width: 296px;
+      height: 169px; } }
+  @media (min-width: 768px) {
+    .interact-video {
+      width: 273px;
+      height: 153px;
+      margin-top: 34px;
+      margin-left: 83px; } }
 
 @media (max-width: 768px) {
   .interact-blurb-mobile {
@@ -582,7 +615,7 @@
   margin-top: 54px; }
   @media (min-width: 375px) {
     .phone-video-common, .create-video, .distort-video {
-      margin-left: 30px;
+      margin-left: 29px;
       margin-top: 70px;
       width: 191px;
       height: 341px; } }

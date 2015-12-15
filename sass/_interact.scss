@@ -48,16 +48,62 @@
 }
 
 .interact-phone-section {
+    @extend .absolute-center;
+    background-image: url(../assets/images/interact_phone.png) ;
     background-size: cover;
     background-position: 50% 50%;
-    width: 570px;
-    height: 299px; 
-    background: url(../assets/images/interact_phone.png) ;
+
+    width: 315px;
+    height: 164px;
+    
+    @include iphone6-portrait-up {
+        width: 370px;
+        height: 193px;
+    }
+    
+    @include iphone6plus-portrait-up {
+        width: 409px;
+        height: 217px;
+    }
+    
+    @include tablet-up {
+        position: relative;
+        width: 570px;
+        height: 299px; 
+    }
+
 }
 
 .interact-video {
-    margin-top: 34px;
-    margin-left: 83px;
+    margin-left: 46px;
+    margin-top: 19px;
+    width: 226px;
+    height: 128px;
+    
+    
+    @include iphone6-portrait-up {
+        margin-left: 53px;
+        margin-top: 22px;
+        
+        width: 264px;
+        height: 153px;
+    }
+    
+    @include iphone6plus-portrait-up {
+        margin-left: 59x;
+        margin-top: 24px;
+        
+        width: 296px;
+        height: 169px;
+    }
+    
+    @include tablet-up {
+        width: 273px;
+        height: 153px;
+        
+        margin-top: 34px;
+        margin-left: 83px;   
+    }
 }
 
 .interact-blurb-mobile {

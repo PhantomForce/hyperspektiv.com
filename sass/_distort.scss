@@ -7,7 +7,7 @@
 }
 
 .distort-content-mobile {
-    @extend .content-mobile-common 
+    @extend .content-mobile-common;
 }
 
 .distort-content {
@@ -34,7 +34,7 @@
 
 .distort-phone-section {
     @extend .phone-section-common;
-    background: url(../assets/images/distort_phone.png) ;
+    background-image: url(../assets/images/distort_phone.png) ;
     
     
     @include tablet-up {
