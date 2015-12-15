@@ -1,5 +1,5 @@
 $(window).scroll(function() {
-    if ($(window).scrollTop() > $(window).height() ){
+    if ($(window).scrollTop() > $(window).height() * 0.99 ){
  		$('.navbar-bg').addClass('navbar-bg-show');
         $('.navbar-content').addClass('navbar-content-show');
     } else {
