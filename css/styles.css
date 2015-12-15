@@ -453,7 +453,11 @@
 .first-cta-section {
   background-color: #212121;
   padding-top: 30px;
-  padding-bottom: 10px; }
+  padding-bottom: 15px; }
+  @media (min-width: 768px) {
+    .first-cta-section {
+      padding-top: 60px;
+      padding-bottom: 40px; } }
 
 .app-store-icon {
   height: 40px;
