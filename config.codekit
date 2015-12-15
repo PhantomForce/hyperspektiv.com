@@ -79,13 +79,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/images\/facebook.png": {
+	"\/assets\/images\/FACEBOOK.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 581,
-		"inputAbbreviatedPath": "\/assets\/images\/facebook.png",
-		"outputAbbreviatedPath": "\/assets\/images\/facebook.png",
+		"inputAbbreviatedPath": "\/assets\/images\/FACEBOOK.png",
+		"outputAbbreviatedPath": "\/assets\/images\/FACEBOOK.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -288,13 +288,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/images\/youtube.png": {
+	"\/assets\/images\/YOUTUBE.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 727,
-		"inputAbbreviatedPath": "\/assets\/images\/youtube.png",
-		"outputAbbreviatedPath": "\/assets\/images\/youtube.png",
+		"inputAbbreviatedPath": "\/assets\/images\/YOUTUBE.png",
+		"outputAbbreviatedPath": "\/assets\/images\/YOUTUBE.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
