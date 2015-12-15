@@ -556,7 +556,8 @@
   font-weight: bold;
   font-family: "aktiv-grotesk";
   text-transform: uppercase;
-  margin-top: 0; }
+  margin-top: 0;
+  letter-spacing: 0; }
 
 @media (max-width: 768px) {
   .title-mobile-common, .create-title-mobile, .distort-title-mobile, .interact-title-mobile {
