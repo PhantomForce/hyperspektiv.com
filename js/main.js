@@ -8,7 +8,7 @@ $(window).scroll(function() {
     }  
     
     if ($(window).scrollTop() > $(window).height() * 3.5 ){
-        console.log("unie");
+
  		$('.meta-cta').addClass('meta-cta-hide');
     } else {
         $('.meta-cta').removeClass('meta-cta-hide');
@@ -16,7 +16,7 @@ $(window).scroll(function() {
 });
 
 $('.scroll').on('click', function(e){		
-    e.preventDefault()
+    e.preventDefault();
     
     $('html, body').animate({
         scrollTop : $(this.hash).offset().top
@@ -24,15 +24,18 @@ $('.scroll').on('click', function(e){
 });
 
 $(function() {
-  $('a[href*=#]:not([href=#])').click(function() {
-    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+  $('a[href*=#]:not([href=#])').click(function(e) {
+    if (location.pathname.replace(/^\//,'') === this.pathname.replace(/^\//,'') && location.hostname === this.hostname) {
+        
       var target = $(this.hash);
       target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+        
       if (target.length) {
         $('html,body').animate({
           scrollTop: target.offset().top
         }, 1000);
-        return false;
+          
+        e.preventDefault();
       }
     }
   });
