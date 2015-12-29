@@ -4606,11 +4606,11 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/support.html": {
+	"\/support\/index.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/support.html",
+		"inputAbbreviatedPath": "\/support\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
