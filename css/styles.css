@@ -372,7 +372,7 @@
 
 .footer-copyright {
   position: absolute;
-  bottom: 16px;
+  bottom: 0px;
   font-size: 12px;
   font-family: "din-next";
   line-height: 26px;
