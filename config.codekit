@@ -79,13 +79,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/images\/FACEBOOK.png": {
+	"\/assets\/images\/facebook.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 581,
-		"inputAbbreviatedPath": "\/assets\/images\/FACEBOOK.png",
-		"outputAbbreviatedPath": "\/assets\/images\/FACEBOOK.png",
+		"inputAbbreviatedPath": "\/assets\/images\/facebook.png",
+		"outputAbbreviatedPath": "\/assets\/images\/facebook.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -156,13 +156,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/images\/INSTAGRAM.png": {
+	"\/assets\/images\/instagram.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 653,
-		"inputAbbreviatedPath": "\/assets\/images\/INSTAGRAM.png",
-		"outputAbbreviatedPath": "\/assets\/images\/INSTAGRAM.png",
+		"inputAbbreviatedPath": "\/assets\/images\/instagram.png",
+		"outputAbbreviatedPath": "\/assets\/images\/instagram.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -277,35 +277,35 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/images\/TUMBLR.png": {
+	"\/assets\/images\/tumblr.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 630,
-		"inputAbbreviatedPath": "\/assets\/images\/TUMBLR.png",
-		"outputAbbreviatedPath": "\/assets\/images\/TUMBLR.png",
+		"inputAbbreviatedPath": "\/assets\/images\/tumblr.png",
+		"outputAbbreviatedPath": "\/assets\/images\/tumblr.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/images\/TWITTER.png": {
+	"\/assets\/images\/twitter.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 658,
-		"inputAbbreviatedPath": "\/assets\/images\/TWITTER.png",
-		"outputAbbreviatedPath": "\/assets\/images\/TWITTER.png",
+		"inputAbbreviatedPath": "\/assets\/images\/twitter.png",
+		"outputAbbreviatedPath": "\/assets\/images\/twitter.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/images\/YOUTUBE.png": {
+	"\/assets\/images\/youtube.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 727,
-		"inputAbbreviatedPath": "\/assets\/images\/YOUTUBE.png",
-		"outputAbbreviatedPath": "\/assets\/images\/YOUTUBE.png",
+		"inputAbbreviatedPath": "\/assets\/images\/youtube.png",
+		"outputAbbreviatedPath": "\/assets\/images\/youtube.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3682,6 +3682,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/css\/privacy.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/css\/privacy.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/css\/screen.css": {
 		"fileType": 16,
 		"ignore": 1,
@@ -3739,6 +3748,15 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
+		},
+	"\/privacy\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/privacy\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/sass\/_common.scss": {
 		"createSourceMap": 0,
@@ -3957,6 +3975,22 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/sass\/print.scss",
 		"outputAbbreviatedPath": "\/css\/print.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/sass\/privacy.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/sass\/privacy.scss",
+		"outputAbbreviatedPath": "\/css\/privacy.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
