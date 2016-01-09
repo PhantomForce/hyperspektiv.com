@@ -50,8 +50,7 @@ $('form').first().submit(function() {
     if (isValidEmailAddress($('#mce-EMAIL').val())) {
         window.dataLayer = window.dataLayer || [];
         window.dataLayer.push({
-            'event' : 'emailSignup',
-            'email' : $('#mce-EMAIL').val()
+            'event' : 'emailSignup'
         });    
     }
 });
