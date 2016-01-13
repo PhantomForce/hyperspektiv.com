@@ -379,7 +379,11 @@
   text-align: center;
   text-transform: uppercase;
   left: 50%;
-  margin-left: -127px; }
+  margin-left: -215px; }
+
+.footer-link {
+  color: #16FFC2 !important;
+  font-weight: bold; }
 
 .hyperspektiv-navbar {
   height: 120px;
