@@ -28,7 +28,7 @@
 
   .desktop-up {
     display: block !important; } }
-.absolute-center, .privacy-main-block, .privacy-blurb {
+.absolute-center {
   margin: auto;
   position: absolute;
   top: 0;
@@ -38,7 +38,9 @@
 
 .privacy-main-block {
   width: 100%;
-  height: 60px; }
+  margin: 0 auto;
+  margin-top: 32px;
+  width: 80%; }
   @media (min-width: 540px) {
     .privacy-main-block {
       width: 600px;
@@ -47,13 +49,13 @@
     .privacy-main-block {
       width: 700px; } }
 
+.privacy-section {
+  background-color: black; }
+
 .privacy-blurb {
-  height: 500px;
-  font-size: 12px;
   font-family: "aktiv-grotesk";
   letter-spacing: 0px;
-  width: 100%;
-  text-transform: uppercase; }
+  width: 100%; }
 
 .privacy-social {
   left: 50%;
@@ -69,3 +71,10 @@
   display: block;
   margin: 0 auto;
   padding-top: 16px; }
+
+.privacy-copyright {
+  font-size: 12px;
+  font-family: "din-next";
+  line-height: 26px;
+  text-align: center;
+  text-transform: uppercase; }
