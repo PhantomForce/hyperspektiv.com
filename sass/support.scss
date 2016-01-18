@@ -1,11 +1,12 @@
 @import "_mixins.scss";
 
 .support-main-block {
-    @extend .absolute-center;
+     width: 100%;
     
-    width: 100%;
+    margin: 0 auto;
+    margin-top: 32px;
     
-    height: 60px;
+    width: 80%;
     @include mobile-landscape {
         width: 600px;
         height: 60px;
@@ -16,28 +17,14 @@
     }
 }
 
-.support-blurb {
-    //@extend .absolute-center;
-    height: 40px;
-    font-size: 24px;
-    font-family: "din-next";
-    //font-weight: bold;
-    letter-spacing: 0px;
-    line-height: 26px;
-    text-align: center;
-    width: 100%;
-    text-transform: uppercase;
-    
-    
+.support-section {
+  background-color: black;
+}
 
-    //padding-top: 20vh;
-    
-    @include tablet-up {
-        padding: 0;
-        font-size: 30px;
-        line-height: 30px;
-        //padding-top: 25vh;
-    }
+.support-blurb {
+    font-family: "aktiv-grotesk";
+    letter-spacing: 0px;
+    width: 100%;
 }
 
 .support-social { 
@@ -56,4 +43,9 @@
     display: block;
     margin: 0 auto;
     padding-top: 16px;
+}
+
+.support-img {
+    padding-bottom: 5px;
+    max-width: 100%;
 }

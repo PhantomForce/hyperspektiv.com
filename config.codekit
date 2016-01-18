@@ -101,6 +101,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/images\/faq_ui_1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 258666,
+		"inputAbbreviatedPath": "\/assets\/images\/faq_ui_1.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/faq_ui_1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/faq_ui_2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 252401,
+		"inputAbbreviatedPath": "\/assets\/images\/faq_ui_2.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/faq_ui_2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/images\/favicon.png": {
 		"fileType": 32768,
 		"ignore": 0,
