@@ -1,3 +1,7 @@
+#mc_embed_signup_scroll {
+    width: 100%;
+}
+
 #mc_embed_signup{
     background:rgba(0,0,0,0); 
     clear:left; 
@@ -13,17 +17,17 @@
     
     width: 270px;
     
-    @include desktop-up {
-        width: 350px;
-    }
+//    @include desktop-up {
+//        width: 350px;
+//    }
 }
 
 #mc_embed_signup #mce-success-response {
     color: white;
     width: 270px;
-    @include desktop-up {
-        width: 350px;
-    }
+//    @include desktop-up {
+//        width: 350px;
+//    }
     margin: 0 auto !important;
 }
 
@@ -33,12 +37,11 @@
     
     font-size: 16px;
     
-    @include desktop-up {
-        font-size: 20px;
-        width: 350px;
-    }
-    
-    
+//    @include desktop-up {
+//        font-size: 20px;
+//        width: 350px;
+//    }
+
     margin-top: -10px;
 }
 
@@ -49,10 +52,146 @@
 .mc-field-group {
     //padding-bottom: 0 !important;
     
-    @include tablet-up {
-        width: 420px !important;   
+//    @include tablet-up {
+//        width: 420px !important;   
+//    }
+}
+
+.mc-section {
+    padding-top:30px;
+    padding-bottom: 30px;
+    background-color: #212121;
+}
+
+#sign-up {
+    @extend .tablet-up;
+    
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 100;
+}
+
+.sign-up-mobile {
+    
+}
+
+.email-form-group {
+    margin: 0 auto !important;
+    display: block;
+}
+
+.email-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    
+    width: 320px;
+    
+    @include mobile-landscape {
+        width: 650px;
     }
 }
+
+.email-input {
+    font-family: "aktiv-grotesk";
+    border-radius: 0;
+    height: 45px;
+    
+    width: 265px !important;
+    font-size: 18px;
+    margin: 0 auto;
+    display: block !important;
+    
+
+    
+    @include tablet-up {
+        margin-left: 10px;
+        margin-bottom: 10px;
+        display: inline !important;   
+    }
+}
+
+.email-button {
+    margin: 0 auto;
+    margin-bottom: 10px;
+    width: 265px !important;
+    height: 45px;
+    border-radius: 0;
+    background: rgba(0,0,0,0);
+    border-color: #C59285;
+    border-width: 3px;
+    color: #C59285;
+    font-weight: bold;
+    font-family: "aktiv-grotesk";
+    text-transform: uppercase;
+    font-size: 18px;
+    display: block;
+    margin-top: 10px;
+    outline: none !important;
+    
+    @include tablet-up {
+        margin-top: 20px;   
+    }
+    
+    @include tablet-up {
+        margin-top: 0;
+        margin-left: 10px;
+        display: inline;
+        width: 120px !important;
+    }
+}
+
+.email-button:hover {
+    background: rgba(0,0,0,0);
+    color: lighten(#C59285, 5%);
+    border-color: lighten(#C59285, 5%);
+}
+
+.email-button:active{
+    background: rgba(0,0,0,0);
+    color: darken(#C59285, 10%);
+    border-color: darken(#C59285, 10%);
+}
+
+.email-button:highlight{
+    background: rgba(0,0,0,0);
+    color: darken(#C59285, 10%);
+    border-color: darken(#C59285, 10%);
+}
+
+.email-button:focus {
+    background: rgba(0,0,0,0);
+    color: #C59285;
+    border-color: #C59285;
+}
+
+.email-label {
+    //@extend .absolute-center;
+
+    font-size: 24px;
+    font-family: "din-next";
+    //font-weight: bold;
+    letter-spacing: 0px;
+    //line-height: 26px;
+    text-align: center;
+    text-transform: uppercase;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 5px;
+    color: #16FFC2; 
+    font-weight: bold;
+
+    //padding-top: 20vh;
+    
+    @include tablet-up {
+        display: inline;
+        //padding: 0;
+        font-size: 30px;
+        margin-bottom: 0;
+        //padding-top: 25vh;
+    }
+}
+
 
 //#mc_embed_signup form {
 //    padding: 0 !important;
