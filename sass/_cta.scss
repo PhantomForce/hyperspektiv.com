@@ -28,7 +28,7 @@
     opacity: 0;
 }
 
-.app-store-icon {
+.appstore-navbar {
     height: 40px;
     margin-top: 40px;
     margin-left: 20px;
@@ -38,6 +38,11 @@
         margin-top: 30px;
         height: 60px;   
     }
+}
+
+.appstore-cta {
+    margin: 0 auto;
+    width: 290px;
 }
 
 #sign-up {

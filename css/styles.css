@@ -343,8 +343,7 @@
   letter-spacing: 0px;
   line-height: 26px;
   text-align: center;
-  width: 100%;
-  text-transform: uppercase; }
+  width: 100%; }
   @media (min-width: 768px) {
     .footer-blurb {
       padding: 0;
@@ -474,15 +473,19 @@
 .meta-cta-hide {
   opacity: 0; }
 
-.app-store-icon {
+.appstore-navbar {
   height: 40px;
   margin-top: 40px;
   margin-left: 20px;
   float: left; }
   @media (min-width: 1025px) {
-    .app-store-icon {
+    .appstore-navbar {
       margin-top: 30px;
       height: 60px; } }
+
+.appstore-cta {
+  margin: 0 auto;
+  width: 290px; }
 
 #sign-up {
   position: fixed;
