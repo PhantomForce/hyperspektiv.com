@@ -352,17 +352,6 @@
 .footer-social img {
   width: 43px; }
 
-.footer-copyright {
-  position: absolute;
-  bottom: 0px;
-  font-size: 12px;
-  font-family: "din-next";
-  line-height: 26px;
-  text-align: center;
-  text-transform: uppercase;
-  left: 50%;
-  margin-left: -215px; }
-
 .footer-link {
   color: #16FFC2 !important;
   font-weight: bold; }
@@ -567,6 +556,10 @@
       margin-left: 34px;
       margin-top: 83px; } }
 
+.emphasis {
+  color: #16FFC2;
+  font-weight: bold; }
+
 #mc_embed_signup_scroll {
   width: 100%; }
 
@@ -599,7 +592,7 @@
 
 .mc-section {
   padding-top: 30px;
-  padding-bottom: 30px;
+  padding-bottom: 15px;
   background-color: #212121; }
 
 #sign-up {
@@ -697,6 +690,19 @@
       display: inline;
       font-size: 30px;
       margin-bottom: 0; } }
+
+.copyright-section {
+  padding-top: 35px;
+  padding-bottom: 30px;
+  background-color: black; }
+
+.copyright {
+  font-size: 14px;
+  font-family: "din-next";
+  line-height: 26px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 0; }
 
 body {
   color: white;
