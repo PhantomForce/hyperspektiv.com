@@ -24,6 +24,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/images\/appstore_download.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8915,
+		"inputAbbreviatedPath": "\/assets\/images\/appstore_download.png",
+		"outputAbbreviatedPath": "\/assets\/images\/appstore_download.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/images\/create_background.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
