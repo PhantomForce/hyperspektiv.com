@@ -322,7 +322,7 @@
   background: url(../assets/images/footer_background.jpg);
   background-size: cover;
   background-position: 50% 50%;
-  height: 100vh;
+  height: 70vh;
   position: relative; }
 
 .footer-main-block {
@@ -346,7 +346,7 @@
   left: 50%;
   margin-left: -175px;
   position: absolute;
-  bottom: 64px;
+  bottom: 16px;
   width: 350px; }
 
 .footer-social img {
